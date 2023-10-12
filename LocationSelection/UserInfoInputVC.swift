@@ -9,6 +9,16 @@ import UIKit
 
 class UserInfoInputVC: UIViewController {
 
+    @IBOutlet weak var NameLabel: UILabel!
+    @IBOutlet weak var NameText: UITextField!
+    
+    @IBOutlet weak var DOBLabel: UILabel!
+    
+    @IBOutlet weak var DOBPicker: UIDatePicker!
+    
+    
+    @IBOutlet weak var LocationLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -26,6 +26,9 @@
 		0867BEDF2AD70E2D0014D3B2 /* TicketBookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0867BEDE2AD70E2D0014D3B2 /* TicketBookingTests.swift */; };
 		0867BEE92AD70E2D0014D3B2 /* TicketBookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0867BEE82AD70E2D0014D3B2 /* TicketBookingUITests.swift */; };
 		0867BEEB2AD70E2D0014D3B2 /* TicketBookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0867BEEA2AD70E2D0014D3B2 /* TicketBookingUITestsLaunchTests.swift */; };
+		08B019082AD7B3A6000F07E5 /* AddFlightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B019072AD7B3A6000F07E5 /* AddFlightVC.swift */; };
+		08B0190A2AD7B3B9000F07E5 /* BookTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B019092AD7B3B9000F07E5 /* BookTicketVC.swift */; };
+		08B0190C2AD7B3CD000F07E5 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B0190B2AD7B3CD000F07E5 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		0867BEE42AD70E2D0014D3B2 /* TicketBookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketBookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0867BEE82AD70E2D0014D3B2 /* TicketBookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingUITests.swift; sourceTree = "<group>"; };
 		0867BEEA2AD70E2D0014D3B2 /* TicketBookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		08B019072AD7B3A6000F07E5 /* AddFlightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlightVC.swift; sourceTree = "<group>"; };
+		08B019092AD7B3B9000F07E5 /* BookTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketVC.swift; sourceTree = "<group>"; };
+		08B0190B2AD7B3CD000F07E5 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		0867BEB82AD70E2A0014D3B2 = {
 			isa = PBXGroup;
 			children = (
+				08B019062AD7B35B000F07E5 /* TapBar */,
 				0867BEF82AD70E610014D3B2 /* LocationSelection */,
 				0867BEC32AD70E2A0014D3B2 /* TicketBooking */,
 				0867BEDD2AD70E2D0014D3B2 /* TicketBookingTests */,
@@ -163,6 +170,16 @@
 				0859D27E2AD7377800195964 /* UserInfoInputVC.swift */,
 			);
 			path = LocationSelection;
+			sourceTree = "<group>";
+		};
+		08B019062AD7B35B000F07E5 /* TapBar */ = {
+			isa = PBXGroup;
+			children = (
+				08B019072AD7B3A6000F07E5 /* AddFlightVC.swift */,
+				08B019092AD7B3B9000F07E5 /* BookTicketVC.swift */,
+				08B0190B2AD7B3CD000F07E5 /* UserInfoVC.swift */,
+			);
+			path = TapBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,9 +323,12 @@
 				0859D2852AD7377800195964 /* CountryVC.swift in Sources */,
 				0859D2872AD7377800195964 /* UserInfoInputVC.swift in Sources */,
 				0859D2862AD7377800195964 /* CityVC.swift in Sources */,
+				08B019082AD7B3A6000F07E5 /* AddFlightVC.swift in Sources */,
 				0867BEC72AD70E2A0014D3B2 /* SceneDelegate.swift in Sources */,
 				0859D28B2AD7377800195964 /* StateCell.swift in Sources */,
+				08B0190C2AD7B3CD000F07E5 /* UserInfoVC.swift in Sources */,
 				0867BECF2AD70E2A0014D3B2 /* TicketBooking.xcdatamodeld in Sources */,
+				08B0190A2AD7B3B9000F07E5 /* BookTicketVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

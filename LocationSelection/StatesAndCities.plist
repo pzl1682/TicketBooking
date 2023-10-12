@@ -1,1160 +1,1159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>New York</key>
-        <array>
-            <string>New York</string>
-            <string>Buffalo</string>
-            <string>Rochester</string>
-            <string>Yonkers</string>
-            <string>Syracuse</string>
-            <string>Albany</string>
-            <string>New Rochelle</string>
-            <string>Mount Vernon</string>
-            <string>Schenectady</string>
-            <string>Utica</string>
-            <string>White Plains</string>
-            <string>Hempstead</string>
-            <string>Troy</string>
-            <string>Niagara Falls</string>
-            <string>Binghamton</string>
-            <string>Freeport</string>
-            <string>Valley Stream</string>
-        </array>
-        <key>California</key>
-        <array>
-            <string>Los Angeles</string>
-            <string>San Diego</string>
-            <string>San Jose</string>
-            <string>San Francisco</string>
-            <string>Fresno</string>
-            <string>Sacramento</string>
-            <string>Long Beach</string>
-            <string>Oakland</string>
-            <string>Bakersfield</string>
-            <string>Anaheim</string>
-            <string>Santa Ana</string>
-            <string>Riverside</string>
-            <string>Stockton</string>
-            <string>Chula Vista</string>
-            <string>Irvine</string>
-            <string>Fremont</string>
-            <string>San Bernardino</string>
-            <string>Modesto</string>
-            <string>Fontana</string>
-            <string>Oxnard</string>
-            <string>Moreno Valley</string>
-            <string>Huntington Beach</string>
-            <string>Glendale</string>
-            <string>Santa Clarita</string>
-            <string>Garden Grove</string>
-            <string>Oceanside</string>
-            <string>Rancho Cucamonga</string>
-            <string>Santa Rosa</string>
-            <string>Ontario</string>
-            <string>Lancaster</string>
-            <string>Elk Grove</string>
-            <string>Corona</string>
-            <string>Palmdale</string>
-            <string>Salinas</string>
-            <string>Pomona</string>
-            <string>Hayward</string>
-            <string>Escondido</string>
-            <string>Torrance</string>
-            <string>Sunnyvale</string>
-            <string>Orange</string>
-            <string>Fullerton</string>
-            <string>Pasadena</string>
-            <string>Thousand Oaks</string>
-            <string>Visalia</string>
-            <string>Simi Valley</string>
-            <string>Concord</string>
-            <string>Roseville</string>
-            <string>Victorville</string>
-            <string>Santa Clara</string>
-            <string>Vallejo</string>
-            <string>Berkeley</string>
-            <string>El Monte</string>
-            <string>Downey</string>
-            <string>Costa Mesa</string>
-            <string>Inglewood</string>
-            <string>Carlsbad</string>
-            <string>San Buenaventura (Ventura)</string>
-            <string>Fairfield</string>
-            <string>West Covina</string>
-            <string>Murrieta</string>
-            <string>Richmond</string>
-            <string>Norwalk</string>
-            <string>Antioch</string>
-            <string>Temecula</string>
-            <string>Burbank</string>
-            <string>Daly City</string>
-            <string>Rialto</string>
-            <string>Santa Maria</string>
-            <string>El Cajon</string>
-            <string>San Mateo</string>
-            <string>Clovis</string>
-            <string>Compton</string>
-            <string>Jurupa Valley</string>
-            <string>Vista</string>
-            <string>South Gate</string>
-            <string>Mission Viejo</string>
-            <string>Vacaville</string>
-            <string>Carson</string>
-            <string>Hesperia</string>
-            <string>Santa Monica</string>
-            <string>Westminster</string>
-            <string>Redding</string>
-            <string>Santa Barbara</string>
-            <string>Chico</string>
-            <string>Newport Beach</string>
-            <string>San Leandro</string>
-            <string>San Marcos</string>
-            <string>Whittier</string>
-            <string>Hawthorne</string>
-            <string>Citrus Heights</string>
-            <string>Tracy</string>
-            <string>Alhambra</string>
-            <string>Livermore</string>
-            <string>Buena Park</string>
-            <string>Menifee</string>
-            <string>Hemet</string>
-            <string>Lakewood</string>
-            <string>Merced</string>
-            <string>Chino</string>
-            <string>Indio</string>
-            <string>Redwood City</string>
-            <string>Lake Forest</string>
-            <string>Napa</string>
-            <string>Tustin</string>
-            <string>Bellflower</string>
-            <string>Mountain View</string>
-            <string>Chino Hills</string>
-            <string>Baldwin Park</string>
-            <string>Alameda</string>
-            <string>Upland</string>
-            <string>San Ramon</string>
-            <string>Folsom</string>
-            <string>Pleasanton</string>
-            <string>Union City</string>
-            <string>Perris</string>
-            <string>Manteca</string>
-            <string>Lynwood</string>
-            <string>Apple Valley</string>
-            <string>Redlands</string>
-            <string>Turlock</string>
-            <string>Milpitas</string>
-            <string>Redondo Beach</string>
-            <string>Rancho Cordova</string>
-            <string>Yorba Linda</string>
-            <string>Palo Alto</string>
-            <string>Davis</string>
-            <string>Camarillo</string>
-            <string>Walnut Creek</string>
-            <string>Pittsburg</string>
-            <string>South San Francisco</string>
-            <string>Yuba City</string>
-            <string>San Clemente</string>
-            <string>Laguna Niguel</string>
-            <string>Pico Rivera</string>
-            <string>Montebello</string>
-            <string>Lodi</string>
-            <string>Madera</string>
-            <string>Santa Cruz</string>
-            <string>La Habra</string>
-            <string>Encinitas</string>
-            <string>Monterey Park</string>
-            <string>Tulare</string>
-            <string>Cupertino</string>
-            <string>Gardena</string>
-            <string>National City</string>
-            <string>Rocklin</string>
-            <string>Petaluma</string>
-            <string>Huntington Park</string>
-            <string>San Rafael</string>
-            <string>La Mesa</string>
-            <string>Arcadia</string>
-            <string>Fountain Valley</string>
-            <string>Diamond Bar</string>
-            <string>Woodland</string>
-            <string>Santee</string>
-            <string>Lake Elsinore</string>
-            <string>Porterville</string>
-            <string>Paramount</string>
-            <string>Eastvale</string>
-            <string>Rosemead</string>
-            <string>Hanford</string>
-            <string>Highland</string>
-            <string>Brentwood</string>
-            <string>Novato</string>
-            <string>Colton</string>
-            <string>Cathedral City</string>
-            <string>Delano</string>
-            <string>Yucaipa</string>
-            <string>Watsonville</string>
-            <string>Placentia</string>
-            <string>Glendora</string>
-            <string>Gilroy</string>
-            <string>Palm Desert</string>
-            <string>Cerritos</string>
-            <string>West Sacramento</string>
-            <string>Aliso Viejo</string>
-            <string>Poway</string>
-            <string>La Mirada</string>
-            <string>Rancho Santa Margarita</string>
-            <string>Cypress</string>
-            <string>Dublin</string>
-            <string>Covina</string>
-            <string>Azusa</string>
-            <string>Palm Springs</string>
-            <string>San Luis Obispo</string>
-            <string>Ceres</string>
-            <string>San Jacinto</string>
-            <string>Lincoln</string>
-            <string>Newark</string>
-            <string>Lompoc</string>
-            <string>El Centro</string>
-            <string>Danville</string>
-            <string>Bell Gardens</string>
-            <string>Coachella</string>
-            <string>Rancho Palos Verdes</string>
-            <string>San Bruno</string>
-            <string>Rohnert Park</string>
-            <string>Brea</string>
-            <string>La Puente</string>
-            <string>Campbell</string>
-            <string>San Gabriel</string>
-            <string>Beaumont</string>
-            <string>Morgan Hill</string>
-            <string>Culver City</string>
-            <string>Calexico</string>
-            <string>Stanton</string>
-            <string>La Quinta</string>
-            <string>Pacifica</string>
-            <string>Montclair</string>
-            <string>Oakley</string>
-            <string>Monrovia</string>
-            <string>Los Banos</string>
-            <string>Martinez</string>
-        </array>
-        <key>Illinois</key>
-        <array>
-            <string>Chicago</string>
-            <string>Aurora</string>
-            <string>Rockford</string>
-            <string>Joliet</string>
-            <string>Naperville</string>
-            <string>Springfield</string>
-            <string>Peoria</string>
-            <string>Elgin</string>
-            <string>Waukegan</string>
-            <string>Cicero</string>
-            <string>Champaign</string>
-            <string>Bloomington</string>
-            <string>Arlington Heights</string>
-            <string>Evanston</string>
-            <string>Decatur</string>
-            <string>Schaumburg</string>
-            <string>Bolingbrook</string>
-            <string>Palatine</string>
-            <string>Skokie</string>
-            <string>Des Plaines</string>
-            <string>Orland Park</string>
-            <string>Tinley Park</string>
-            <string>Oak Lawn</string>
-            <string>Berwyn</string>
-            <string>Mount Prospect</string>
-            <string>Normal</string>
-            <string>Wheaton</string>
-            <string>Hoffman Estates</string>
-            <string>Oak Park</string>
-            <string>Downers Grove</string>
-            <string>Elmhurst</string>
-            <string>Glenview</string>
-            <string>DeKalb</string>
-            <string>Lombard</string>
-            <string>Belleville</string>
-            <string>Moline</string>
-            <string>Buffalo Grove</string>
-            <string>Bartlett</string>
-            <string>Urbana</string>
-            <string>Quincy</string>
-            <string>Crystal Lake</string>
-            <string>Plainfield</string>
-            <string>Streamwood</string>
-            <string>Carol Stream</string>
-            <string>Romeoville</string>
-            <string>Rock Island</string>
-            <string>Hanover Park</string>
-            <string>Carpentersville</string>
-            <string>Wheeling</string>
-            <string>Park Ridge</string>
-            <string>Addison</string>
-            <string>Calumet City</string>
-        </array>
-        <key>Texas</key>
-        <array>
-            <string>Houston</string>
-            <string>San Antonio</string>
-            <string>Dallas</string>
-            <string>Austin</string>
-            <string>Fort Worth</string>
-            <string>El Paso</string>
-            <string>Arlington</string>
-            <string>Corpus Christi</string>
-            <string>Plano</string>
-            <string>Laredo</string>
-            <string>Lubbock</string>
-            <string>Garland</string>
-            <string>Irving</string>
-            <string>Amarillo</string>
-            <string>Grand Prairie</string>
-            <string>Brownsville</string>
-            <string>Pasadena</string>
-            <string>McKinney</string>
-            <string>Mesquite</string>
-            <string>McAllen</string>
-            <string>Killeen</string>
-            <string>Frisco</string>
-            <string>Waco</string>
-            <string>Carrollton</string>
-            <string>Denton</string>
-            <string>Midland</string>
-            <string>Abilene</string>
-            <string>Beaumont</string>
-            <string>Round Rock</string>
-            <string>Odessa</string>
-            <string>Wichita Falls</string>
-            <string>Richardson</string>
-            <string>Lewisville</string>
-            <string>Tyler</string>
-            <string>College Station</string>
-            <string>Pearland</string>
-            <string>San Angelo</string>
-            <string>Allen</string>
-            <string>League City</string>
-            <string>Sugar Land</string>
-            <string>Longview</string>
-            <string>Edinburg</string>
-            <string>Mission</string>
-            <string>Bryan</string>
-            <string>Baytown</string>
-            <string>Pharr</string>
-            <string>Temple</string>
-            <string>Missouri City</string>
-            <string>Flower Mound</string>
-            <string>Harlingen</string>
-            <string>North Richland Hills</string>
-            <string>Victoria</string>
-            <string>Conroe</string>
-            <string>New Braunfels</string>
-            <string>Mansfield</string>
-            <string>Cedar Park</string>
-            <string>Rowlett</string>
-            <string>Port Arthur</string>
-            <string>Euless</string>
-            <string>Georgetown</string>
-            <string>Pflugerville</string>
-            <string>DeSoto</string>
-            <string>San Marcos</string>
-            <string>Grapevine</string>
-            <string>Bedford</string>
-            <string>Galveston</string>
-            <string>Cedar Hill</string>
-            <string>Texas City</string>
-            <string>Wylie</string>
-            <string>Haltom City</string>
-            <string>Keller</string>
-            <string>Coppell</string>
-            <string>Rockwall</string>
-            <string>Huntsville</string>
-            <string>Duncanville</string>
-            <string>Sherman</string>
-            <string>The Colony</string>
-            <string>Burleson</string>
-            <string>Hurst</string>
-            <string>Lancaster</string>
-            <string>Texarkana</string>
-            <string>Friendswood</string>
-            <string>Weslaco</string>
-        </array>
-        <key>Pennsylvania</key>
-        <array>
-            <string>Philadelphia</string>
-            <string>Pittsburgh</string>
-            <string>Allentown</string>
-            <string>Erie</string>
-            <string>Reading</string>
-            <string>Scranton</string>
-            <string>Bethlehem</string>
-            <string>Lancaster</string>
-            <string>Harrisburg</string>
-            <string>Altoona</string>
-            <string>York</string>
-            <string>State College</string>
-            <string>Wilkes-Barre</string>
-        </array>
-        <key>Arizona</key>
-        <array>
-            <string>Phoenix</string>
-            <string>Tucson</string>
-            <string>Mesa</string>
-            <string>Chandler</string>
-            <string>Glendale</string>
-            <string>Scottsdale</string>
-            <string>Gilbert</string>
-            <string>Tempe</string>
-            <string>Peoria</string>
-            <string>Surprise</string>
-            <string>Yuma</string>
-            <string>Avondale</string>
-            <string>Goodyear</string>
-            <string>Flagstaff</string>
-            <string>Buckeye</string>
-            <string>Lake Havasu City</string>
-            <string>Casa Grande</string>
-            <string>Sierra Vista</string>
-            <string>Maricopa</string>
-            <string>Oro Valley</string>
-            <string>Prescott</string>
-            <string>Bullhead City</string>
-            <string>Prescott Valley</string>
-            <string>Marana</string>
-            <string>Apache Junction</string>
-        </array>
-        <key>Florida</key>
-        <array>
-            <string>Jacksonville</string>
-            <string>Miami</string>
-            <string>Tampa</string>
-            <string>Orlando</string>
-            <string>St. Petersburg</string>
-            <string>Hialeah</string>
-            <string>Tallahassee</string>
-            <string>Fort Lauderdale</string>
-            <string>Port St. Lucie</string>
-            <string>Cape Coral</string>
-            <string>Pembroke Pines</string>
-            <string>Hollywood</string>
-            <string>Miramar</string>
-            <string>Gainesville</string>
-            <string>Coral Springs</string>
-            <string>Miami Gardens</string>
-            <string>Clearwater</string>
-            <string>Palm Bay</string>
-            <string>Pompano Beach</string>
-            <string>West Palm Beach</string>
-            <string>Lakeland</string>
-            <string>Davie</string>
-            <string>Miami Beach</string>
-            <string>Sunrise</string>
-            <string>Plantation</string>
-            <string>Boca Raton</string>
-            <string>Deltona</string>
-            <string>Largo</string>
-            <string>Deerfield Beach</string>
-            <string>Palm Coast</string>
-            <string>Melbourne</string>
-            <string>Boynton Beach</string>
-            <string>Lauderhill</string>
-            <string>Weston</string>
-            <string>Fort Myers</string>
-            <string>Kissimmee</string>
-            <string>Homestead</string>
-            <string>Tamarac</string>
-            <string>Delray Beach</string>
-            <string>Daytona Beach</string>
-            <string>North Miami</string>
-            <string>Wellington</string>
-            <string>North Port</string>
-            <string>Jupiter</string>
-            <string>Ocala</string>
-            <string>Port Orange</string>
-            <string>Margate</string>
-            <string>Coconut Creek</string>
-            <string>Sanford</string>
-            <string>Sarasota</string>
-            <string>Pensacola</string>
-            <string>Bradenton</string>
-            <string>Palm Beach Gardens</string>
-            <string>Pinellas Park</string>
-            <string>Coral Gables</string>
-            <string>Doral</string>
-            <string>Bonita Springs</string>
-            <string>Apopka</string>
-            <string>Titusville</string>
-            <string>North Miami Beach</string>
-            <string>Oakland Park</string>
-            <string>Fort Pierce</string>
-            <string>North Lauderdale</string>
-            <string>Cutler Bay</string>
-            <string>Altamonte Springs</string>
-            <string>St. Cloud</string>
-            <string>Greenacres</string>
-            <string>Ormond Beach</string>
-            <string>Ocoee</string>
-            <string>Hallandale Beach</string>
-            <string>Winter Garden</string>
-            <string>Aventura</string>
-        </array>
-        <key>Indiana</key>
-        <array>
-            <string>Indianapolis</string>
-            <string>Fort Wayne</string>
-            <string>Evansville</string>
-            <string>South Bend</string>
-            <string>Carmel</string>
-            <string>Bloomington</string>
-            <string>Fishers</string>
-            <string>Hammond</string>
-            <string>Gary</string>
-            <string>Muncie</string>
-            <string>Lafayette</string>
-            <string>Terre Haute</string>
-            <string>Kokomo</string>
-            <string>Anderson</string>
-            <string>Noblesville</string>
-            <string>Greenwood</string>
-            <string>Elkhart</string>
-            <string>Mishawaka</string>
-            <string>Lawrence</string>
-            <string>Jeffersonville</string>
-            <string>Columbus</string>
-            <string>Portage</string>
-        </array>
-        <key>Ohio</key>
-        <array>
-            <string>Columbus</string>
-            <string>Cleveland</string>
-            <string>Cincinnati</string>
-            <string>Toledo</string>
-            <string>Akron</string>
-            <string>Dayton</string>
-            <string>Parma</string>
-            <string>Canton</string>
-            <string>Youngstown</string>
-            <string>Lorain</string>
-            <string>Hamilton</string>
-            <string>Springfield</string>
-            <string>Kettering</string>
-            <string>Elyria</string>
-            <string>Lakewood</string>
-            <string>Cuyahoga Falls</string>
-            <string>Middletown</string>
-            <string>Euclid</string>
-            <string>Newark</string>
-            <string>Mansfield</string>
-            <string>Mentor</string>
-            <string>Beavercreek</string>
-            <string>Cleveland Heights</string>
-            <string>Strongsville</string>
-            <string>Dublin</string>
-            <string>Fairfield</string>
-            <string>Findlay</string>
-            <string>Warren</string>
-            <string>Lancaster</string>
-            <string>Lima</string>
-            <string>Huber Heights</string>
-            <string>Westerville</string>
-            <string>Marion</string>
-            <string>Grove City</string>
-        </array>
-        <key>North Carolina</key>
-        <array>
-            <string>Charlotte</string>
-            <string>Raleigh</string>
-            <string>Greensboro</string>
-            <string>Durham</string>
-            <string>Winston-Salem</string>
-            <string>Fayetteville</string>
-            <string>Cary</string>
-            <string>Wilmington</string>
-            <string>High Point</string>
-            <string>Greenville</string>
-            <string>Asheville</string>
-            <string>Concord</string>
-            <string>Gastonia</string>
-            <string>Jacksonville</string>
-            <string>Chapel Hill</string>
-            <string>Rocky Mount</string>
-            <string>Burlington</string>
-            <string>Wilson</string>
-            <string>Huntersville</string>
-            <string>Kannapolis</string>
-            <string>Apex</string>
-            <string>Hickory</string>
-            <string>Goldsboro</string>
-        </array>
-        <key>Michigan</key>
-        <array>
-            <string>Detroit</string>
-            <string>Grand Rapids</string>
-            <string>Warren</string>
-            <string>Sterling Heights</string>
-            <string>Ann Arbor</string>
-            <string>Lansing</string>
-            <string>Flint</string>
-            <string>Dearborn</string>
-            <string>Livonia</string>
-            <string>Westland</string>
-            <string>Troy</string>
-            <string>Farmington Hills</string>
-            <string>Kalamazoo</string>
-            <string>Wyoming</string>
-            <string>Southfield</string>
-            <string>Rochester Hills</string>
-            <string>Taylor</string>
-            <string>Pontiac</string>
-            <string>St. Clair Shores</string>
-            <string>Royal Oak</string>
-            <string>Novi</string>
-            <string>Dearborn Heights</string>
-            <string>Battle Creek</string>
-            <string>Saginaw</string>
-            <string>Kentwood</string>
-            <string>East Lansing</string>
-            <string>Roseville</string>
-            <string>Portage</string>
-            <string>Midland</string>
-            <string>Lincoln Park</string>
-            <string>Muskegon</string>
-        </array>
-        <key>Tennessee</key>
-        <array>
-            <string>Memphis</string>
-            <string>Nashville-Davidson</string>
-            <string>Knoxville</string>
-            <string>Chattanooga</string>
-            <string>Clarksville</string>
-            <string>Murfreesboro</string>
-            <string>Jackson</string>
-            <string>Franklin</string>
-            <string>Johnson City</string>
-            <string>Bartlett</string>
-            <string>Hendersonville</string>
-            <string>Kingsport</string>
-            <string>Collierville</string>
-            <string>Cleveland</string>
-            <string>Smyrna</string>
-            <string>Germantown</string>
-            <string>Brentwood</string>
-        </array>
-        <key>Massachusetts</key>
-        <array>
-            <string>Boston</string>
-            <string>Worcester</string>
-            <string>Springfield</string>
-            <string>Lowell</string>
-            <string>Cambridge</string>
-            <string>New Bedford</string>
-            <string>Brockton</string>
-            <string>Quincy</string>
-            <string>Lynn</string>
-            <string>Fall River</string>
-            <string>Newton</string>
-            <string>Lawrence</string>
-            <string>Somerville</string>
-            <string>Waltham</string>
-            <string>Haverhill</string>
-            <string>Malden</string>
-            <string>Medford</string>
-            <string>Taunton</string>
-            <string>Chicopee</string>
-            <string>Weymouth Town</string>
-            <string>Revere</string>
-            <string>Peabody</string>
-            <string>Methuen</string>
-            <string>Barnstable Town</string>
-            <string>Pittsfield</string>
-            <string>Attleboro</string>
-            <string>Everett</string>
-            <string>Salem</string>
-            <string>Westfield</string>
-            <string>Leominster</string>
-            <string>Fitchburg</string>
-            <string>Beverly</string>
-            <string>Holyoke</string>
-            <string>Marlborough</string>
-            <string>Woburn</string>
-            <string>Chelsea</string>
-        </array>
-        <key>Washington</key>
-        <array>
-            <string>Seattle</string>
-            <string>Spokane</string>
-            <string>Tacoma</string>
-            <string>Vancouver</string>
-            <string>Bellevue</string>
-            <string>Kent</string>
-            <string>Everett</string>
-            <string>Renton</string>
-            <string>Yakima</string>
-            <string>Federal Way</string>
-            <string>Spokane Valley</string>
-            <string>Bellingham</string>
-            <string>Kennewick</string>
-            <string>Auburn</string>
-            <string>Pasco</string>
-            <string>Marysville</string>
-            <string>Lakewood</string>
-            <string>Redmond</string>
-            <string>Shoreline</string>
-            <string>Richland</string>
-            <string>Kirkland</string>
-            <string>Burien</string>
-            <string>Sammamish</string>
-            <string>Olympia</string>
-            <string>Lacey</string>
-            <string>Edmonds</string>
-            <string>Bremerton</string>
-            <string>Puyallup</string>
-        </array>
-        <key>Colorado</key>
-        <array>
-            <string>Denver</string>
-            <string>Colorado Springs</string>
-            <string>Aurora</string>
-            <string>Fort Collins</string>
-            <string>Lakewood</string>
-            <string>Thornton</string>
-            <string>Arvada</string>
-            <string>Westminster</string>
-            <string>Pueblo</string>
-            <string>Centennial</string>
-            <string>Boulder</string>
-            <string>Greeley</string>
-            <string>Longmont</string>
-            <string>Loveland</string>
-            <string>Grand Junction</string>
-            <string>Broomfield</string>
-            <string>Castle Rock</string>
-            <string>Commerce City</string>
-            <string>Parker</string>
-            <string>Littleton</string>
-            <string>Northglenn</string>
-        </array>
-        <key>District of Columbia</key>
-        <array>
-            <string>Washington</string>
-        </array>
-        <key>Maryland</key>
-        <array>
-            <string>Baltimore</string>
-            <string>Frederick</string>
-            <string>Rockville</string>
-            <string>Gaithersburg</string>
-            <string>Bowie</string>
-            <string>Hagerstown</string>
-            <string>Annapolis</string>
-        </array>
-        <key>Kentucky</key>
-        <array>
-            <string>Louisville/Jefferson County</string>
-            <string>Lexington-Fayette</string>
-            <string>Bowling Green</string>
-            <string>Owensboro</string>
-            <string>Covington</string>
-        </array>
-        <key>Oregon</key>
-        <array>
-            <string>Portland</string>
-            <string>Eugene</string>
-            <string>Salem</string>
-            <string>Gresham</string>
-            <string>Hillsboro</string>
-            <string>Beaverton</string>
-            <string>Bend</string>
-            <string>Medford</string>
-            <string>Springfield</string>
-            <string>Corvallis</string>
-            <string>Albany</string>
-            <string>Tigard</string>
-            <string>Lake Oswego</string>
-            <string>Keizer</string>
-        </array>
-        <key>Oklahoma</key>
-        <array>
-            <string>Oklahoma City</string>
-            <string>Tulsa</string>
-            <string>Norman</string>
-            <string>Broken Arrow</string>
-            <string>Lawton</string>
-            <string>Edmond</string>
-            <string>Moore</string>
-            <string>Midwest City</string>
-            <string>Enid</string>
-            <string>Stillwater</string>
-            <string>Muskogee</string>
-        </array>
-        <key>Wisconsin</key>
-        <array>
-            <string>Milwaukee</string>
-            <string>Madison</string>
-            <string>Green Bay</string>
-            <string>Kenosha</string>
-            <string>Racine</string>
-            <string>Appleton</string>
-            <string>Waukesha</string>
-            <string>Eau Claire</string>
-            <string>Oshkosh</string>
-            <string>Janesville</string>
-            <string>West Allis</string>
-            <string>La Crosse</string>
-            <string>Sheboygan</string>
-            <string>Wauwatosa</string>
-            <string>Fond du Lac</string>
-            <string>New Berlin</string>
-            <string>Wausau</string>
-            <string>Brookfield</string>
-            <string>Greenfield</string>
-            <string>Beloit</string>
-        </array>
-        <key>Nevada</key>
-        <array>
-            <string>Las Vegas</string>
-            <string>Henderson</string>
-            <string>Reno</string>
-            <string>North Las Vegas</string>
-            <string>Sparks</string>
-            <string>Carson City</string>
-        </array>
-        <key>New Mexico</key>
-        <array>
-            <string>Albuquerque</string>
-            <string>Las Cruces</string>
-            <string>Rio Rancho</string>
-            <string>Santa Fe</string>
-            <string>Roswell</string>
-            <string>Farmington</string>
-            <string>Clovis</string>
-        </array>
-        <key>Missouri</key>
-        <array>
-            <string>Kansas City</string>
-            <string>St. Louis</string>
-            <string>Springfield</string>
-            <string>Independence</string>
-            <string>Columbia</string>
-            <string>Lee's Summit</string>
-            <string>O'Fallon</string>
-            <string>St. Joseph</string>
-            <string>St. Charles</string>
-            <string>St. Peters</string>
-            <string>Blue Springs</string>
-            <string>Florissant</string>
-            <string>Joplin</string>
-            <string>Chesterfield</string>
-            <string>Jefferson City</string>
-            <string>Cape Girardeau</string>
-        </array>
-        <key>Virginia</key>
-        <array>
-            <string>Virginia Beach</string>
-            <string>Norfolk</string>
-            <string>Chesapeake</string>
-            <string>Richmond</string>
-            <string>Newport News</string>
-            <string>Alexandria</string>
-            <string>Hampton</string>
-            <string>Roanoke</string>
-            <string>Portsmouth</string>
-            <string>Suffolk</string>
-            <string>Lynchburg</string>
-            <string>Harrisonburg</string>
-            <string>Leesburg</string>
-            <string>Charlottesville</string>
-            <string>Danville</string>
-            <string>Blacksburg</string>
-            <string>Manassas</string>
-        </array>
-        <key>Georgia</key>
-        <array>
-            <string>Atlanta</string>
-            <string>Columbus</string>
-            <string>Augusta-Richmond County</string>
-            <string>Savannah</string>
-            <string>Athens-Clarke County</string>
-            <string>Sandy Springs</string>
-            <string>Roswell</string>
-            <string>Macon</string>
-            <string>Johns Creek</string>
-            <string>Albany</string>
-            <string>Warner Robins</string>
-            <string>Alpharetta</string>
-            <string>Marietta</string>
-            <string>Valdosta</string>
-            <string>Smyrna</string>
-            <string>Dunwoody</string>
-        </array>
-        <key>Nebraska</key>
-        <array>
-            <string>Omaha</string>
-            <string>Lincoln</string>
-            <string>Bellevue</string>
-            <string>Grand Island</string>
-        </array>
-        <key>Minnesota</key>
-        <array>
-            <string>Minneapolis</string>
-            <string>St. Paul</string>
-            <string>Rochester</string>
-            <string>Duluth</string>
-            <string>Bloomington</string>
-            <string>Brooklyn Park</string>
-            <string>Plymouth</string>
-            <string>St. Cloud</string>
-            <string>Eagan</string>
-            <string>Woodbury</string>
-            <string>Maple Grove</string>
-            <string>Eden Prairie</string>
-            <string>Coon Rapids</string>
-            <string>Burnsville</string>
-            <string>Blaine</string>
-            <string>Lakeville</string>
-            <string>Minnetonka</string>
-            <string>Apple Valley</string>
-            <string>Edina</string>
-            <string>St. Louis Park</string>
-            <string>Mankato</string>
-            <string>Maplewood</string>
-            <string>Moorhead</string>
-            <string>Shakopee</string>
-        </array>
-        <key>Kansas</key>
-        <array>
-            <string>Wichita</string>
-            <string>Overland Park</string>
-            <string>Kansas City</string>
-            <string>Olathe</string>
-            <string>Topeka</string>
-            <string>Lawrence</string>
-            <string>Shawnee</string>
-            <string>Manhattan</string>
-            <string>Lenexa</string>
-            <string>Salina</string>
-            <string>Hutchinson</string>
-        </array>
-        <key>Louisiana</key>
-        <array>
-            <string>New Orleans</string>
-            <string>Baton Rouge</string>
-            <string>Shreveport</string>
-            <string>Lafayette</string>
-            <string>Lake Charles</string>
-            <string>Kenner</string>
-            <string>Bossier City</string>
-            <string>Monroe</string>
-            <string>Alexandria</string>
-        </array>
-        <key>Hawaii</key>
-        <array>
-            <string>Honolulu</string>
-        </array>
-        <key>Alaska</key>
-        <array>
-            <string>Anchorage</string>
-        </array>
-        <key>New Jersey</key>
-        <array>
-            <string>Newark</string>
-            <string>Jersey City</string>
-            <string>Paterson</string>
-            <string>Elizabeth</string>
-            <string>Clifton</string>
-            <string>Trenton</string>
-            <string>Camden</string>
-            <string>Passaic</string>
-            <string>Union City</string>
-            <string>Bayonne</string>
-            <string>East Orange</string>
-            <string>Vineland</string>
-            <string>New Brunswick</string>
-            <string>Hoboken</string>
-            <string>Perth Amboy</string>
-            <string>West New York</string>
-            <string>Plainfield</string>
-            <string>Hackensack</string>
-            <string>Sayreville</string>
-            <string>Kearny</string>
-            <string>Linden</string>
-            <string>Atlantic City</string>
-        </array>
-        <key>Idaho</key>
-        <array>
-            <string>Boise City</string>
-            <string>Nampa</string>
-            <string>Meridian</string>
-            <string>Idaho Falls</string>
-            <string>Pocatello</string>
-            <string>Caldwell</string>
-            <string>Coeur d'Alene</string>
-            <string>Twin Falls</string>
-        </array>
-        <key>Alabama</key>
-        <array>
-            <string>Birmingham</string>
-            <string>Montgomery</string>
-            <string>Mobile</string>
-            <string>Huntsville</string>
-            <string>Tuscaloosa</string>
-            <string>Hoover</string>
-            <string>Dothan</string>
-            <string>Auburn</string>
-            <string>Decatur</string>
-            <string>Madison</string>
-            <string>Florence</string>
-            <string>Gadsden</string>
-        </array>
-        <key>Iowa</key>
-        <array>
-            <string>Des Moines</string>
-            <string>Cedar Rapids</string>
-            <string>Davenport</string>
-            <string>Sioux City</string>
-            <string>Iowa City</string>
-            <string>Waterloo</string>
-            <string>Council Bluffs</string>
-            <string>Ames</string>
-            <string>West Des Moines</string>
-            <string>Dubuque</string>
-            <string>Ankeny</string>
-            <string>Urbandale</string>
-            <string>Cedar Falls</string>
-        </array>
-        <key>Arkansas</key>
-        <array>
-            <string>Little Rock</string>
-            <string>Fort Smith</string>
-            <string>Fayetteville</string>
-            <string>Springdale</string>
-            <string>Jonesboro</string>
-            <string>North Little Rock</string>
-            <string>Conway</string>
-            <string>Rogers</string>
-            <string>Pine Bluff</string>
-            <string>Bentonville</string>
-        </array>
-        <key>Utah</key>
-        <array>
-            <string>Salt Lake City</string>
-            <string>West Valley City</string>
-            <string>Provo</string>
-            <string>West Jordan</string>
-            <string>Orem</string>
-            <string>Sandy</string>
-            <string>Ogden</string>
-            <string>St. George</string>
-            <string>Layton</string>
-            <string>Taylorsville</string>
-            <string>South Jordan</string>
-            <string>Lehi</string>
-            <string>Logan</string>
-            <string>Murray</string>
-            <string>Draper</string>
-            <string>Bountiful</string>
-            <string>Riverton</string>
-            <string>Roy</string>
-        </array>
-        <key>Rhode Island</key>
-        <array>
-            <string>Providence</string>
-            <string>Warwick</string>
-            <string>Cranston</string>
-            <string>Pawtucket</string>
-            <string>East Providence</string>
-            <string>Woonsocket</string>
-        </array>
-        <key>Mississippi</key>
-        <array>
-            <string>Jackson</string>
-            <string>Gulfport</string>
-            <string>Southaven</string>
-            <string>Hattiesburg</string>
-            <string>Biloxi</string>
-            <string>Meridian</string>
-        </array>
-        <key>South Dakota</key>
-        <array>
-            <string>Sioux Falls</string>
-            <string>Rapid City</string>
-        </array>
-        <key>Connecticut</key>
-        <array>
-            <string>Bridgeport</string>
-            <string>New Haven</string>
-            <string>Stamford</string>
-            <string>Hartford</string>
-            <string>Waterbury</string>
-            <string>Norwalk</string>
-            <string>Danbury</string>
-            <string>New Britain</string>
-            <string>Meriden</string>
-            <string>Bristol</string>
-            <string>West Haven</string>
-            <string>Milford</string>
-            <string>Middletown</string>
-            <string>Norwich</string>
-            <string>Shelton</string>
-        </array>
-        <key>South Carolina</key>
-        <array>
-            <string>Columbia</string>
-            <string>Charleston</string>
-            <string>North Charleston</string>
-            <string>Mount Pleasant</string>
-            <string>Rock Hill</string>
-            <string>Greenville</string>
-            <string>Summerville</string>
-            <string>Sumter</string>
-            <string>Goose Creek</string>
-            <string>Hilton Head Island</string>
-            <string>Florence</string>
-            <string>Spartanburg</string>
-        </array>
-        <key>New Hampshire</key>
-        <array>
-            <string>Manchester</string>
-            <string>Nashua</string>
-            <string>Concord</string>
-        </array>
-        <key>North Dakota</key>
-        <array>
-            <string>Fargo</string>
-            <string>Bismarck</string>
-            <string>Grand Forks</string>
-            <string>Minot</string>
-        </array>
-        <key>Montana</key>
-        <array>
-            <string>Billings</string>
-            <string>Missoula</string>
-            <string>Great Falls</string>
-            <string>Bozeman</string>
-        </array>
-        <key>Delaware</key>
-        <array>
-            <string>Wilmington</string>
-            <string>Dover</string>
-        </array>
-        <key>Maine</key>
-        <array>
-            <string>Portland</string>
-        </array>
-        <key>Wyoming</key>
-        <array>
-            <string>Cheyenne</string>
-            <string>Casper</string>
-        </array>
-        <key>West Virginia</key>
-        <array>
-            <string>Charleston</string>
-            <string>Huntington</string>
-        </array>
-        <key>Vermont</key>
-        <array>
-            <string>Burlington</string>
-        </array>
-    </dict>
+<dict>
+	<key>New York</key>
+	<array>
+		<string>New York</string>
+		<string>Buffalo</string>
+		<string>Rochester</string>
+		<string>Yonkers</string>
+		<string>Syracuse</string>
+		<string>Albany</string>
+		<string>New Rochelle</string>
+		<string>Mount Vernon</string>
+		<string>Schenectady</string>
+		<string>Utica</string>
+		<string>White Plains</string>
+		<string>Hempstead</string>
+		<string>Troy</string>
+		<string>Niagara Falls</string>
+		<string>Binghamton</string>
+		<string>Freeport</string>
+		<string>Valley Stream</string>
+	</array>
+	<key>California</key>
+	<array>
+		<string>Los Angeles</string>
+		<string>San Diego</string>
+		<string>San Jose</string>
+		<string>San Francisco</string>
+		<string>Fresno</string>
+		<string>Sacramento</string>
+		<string>Long Beach</string>
+		<string>Oakland</string>
+		<string>Bakersfield</string>
+		<string>Anaheim</string>
+		<string>Santa Ana</string>
+		<string>Riverside</string>
+		<string>Stockton</string>
+		<string>Chula Vista</string>
+		<string>Irvine</string>
+		<string>Fremont</string>
+		<string>San Bernardino</string>
+		<string>Modesto</string>
+		<string>Fontana</string>
+		<string>Oxnard</string>
+		<string>Moreno Valley</string>
+		<string>Huntington Beach</string>
+		<string>Glendale</string>
+		<string>Santa Clarita</string>
+		<string>Garden Grove</string>
+		<string>Oceanside</string>
+		<string>Rancho Cucamonga</string>
+		<string>Santa Rosa</string>
+		<string>Ontario</string>
+		<string>Lancaster</string>
+		<string>Elk Grove</string>
+		<string>Corona</string>
+		<string>Palmdale</string>
+		<string>Salinas</string>
+		<string>Pomona</string>
+		<string>Hayward</string>
+		<string>Escondido</string>
+		<string>Torrance</string>
+		<string>Sunnyvale</string>
+		<string>Orange</string>
+		<string>Fullerton</string>
+		<string>Pasadena</string>
+		<string>Thousand Oaks</string>
+		<string>Visalia</string>
+		<string>Simi Valley</string>
+		<string>Concord</string>
+		<string>Roseville</string>
+		<string>Victorville</string>
+		<string>Santa Clara</string>
+		<string>Vallejo</string>
+		<string>Berkeley</string>
+		<string>El Monte</string>
+		<string>Downey</string>
+		<string>Costa Mesa</string>
+		<string>Inglewood</string>
+		<string>Carlsbad</string>
+		<string>San Buenaventura (Ventura)</string>
+		<string>Fairfield</string>
+		<string>West Covina</string>
+		<string>Murrieta</string>
+		<string>Richmond</string>
+		<string>Norwalk</string>
+		<string>Antioch</string>
+		<string>Temecula</string>
+		<string>Burbank</string>
+		<string>Daly City</string>
+		<string>Rialto</string>
+		<string>Santa Maria</string>
+		<string>El Cajon</string>
+		<string>San Mateo</string>
+		<string>Clovis</string>
+		<string>Compton</string>
+		<string>Jurupa Valley</string>
+		<string>Vista</string>
+		<string>South Gate</string>
+		<string>Mission Viejo</string>
+		<string>Vacaville</string>
+		<string>Carson</string>
+		<string>Hesperia</string>
+		<string>Santa Monica</string>
+		<string>Westminster</string>
+		<string>Redding</string>
+		<string>Santa Barbara</string>
+		<string>Chico</string>
+		<string>Newport Beach</string>
+		<string>San Leandro</string>
+		<string>San Marcos</string>
+		<string>Whittier</string>
+		<string>Hawthorne</string>
+		<string>Citrus Heights</string>
+		<string>Tracy</string>
+		<string>Alhambra</string>
+		<string>Livermore</string>
+		<string>Buena Park</string>
+		<string>Menifee</string>
+		<string>Hemet</string>
+		<string>Lakewood</string>
+		<string>Merced</string>
+		<string>Chino</string>
+		<string>Indio</string>
+		<string>Redwood City</string>
+		<string>Lake Forest</string>
+		<string>Napa</string>
+		<string>Tustin</string>
+		<string>Bellflower</string>
+		<string>Mountain View</string>
+		<string>Chino Hills</string>
+		<string>Baldwin Park</string>
+		<string>Alameda</string>
+		<string>Upland</string>
+		<string>San Ramon</string>
+		<string>Folsom</string>
+		<string>Pleasanton</string>
+		<string>Union City</string>
+		<string>Perris</string>
+		<string>Manteca</string>
+		<string>Lynwood</string>
+		<string>Apple Valley</string>
+		<string>Redlands</string>
+		<string>Turlock</string>
+		<string>Milpitas</string>
+		<string>Redondo Beach</string>
+		<string>Rancho Cordova</string>
+		<string>Yorba Linda</string>
+		<string>Palo Alto</string>
+		<string>Davis</string>
+		<string>Camarillo</string>
+		<string>Walnut Creek</string>
+		<string>Pittsburg</string>
+		<string>South San Francisco</string>
+		<string>Yuba City</string>
+		<string>San Clemente</string>
+		<string>Laguna Niguel</string>
+		<string>Pico Rivera</string>
+		<string>Montebello</string>
+		<string>Lodi</string>
+		<string>Madera</string>
+		<string>Santa Cruz</string>
+		<string>La Habra</string>
+		<string>Encinitas</string>
+		<string>Monterey Park</string>
+		<string>Tulare</string>
+		<string>Cupertino</string>
+		<string>Gardena</string>
+		<string>National City</string>
+		<string>Rocklin</string>
+		<string>Petaluma</string>
+		<string>Huntington Park</string>
+		<string>San Rafael</string>
+		<string>La Mesa</string>
+		<string>Arcadia</string>
+		<string>Fountain Valley</string>
+		<string>Diamond Bar</string>
+		<string>Woodland</string>
+		<string>Santee</string>
+		<string>Lake Elsinore</string>
+		<string>Porterville</string>
+		<string>Paramount</string>
+		<string>Eastvale</string>
+		<string>Rosemead</string>
+		<string>Hanford</string>
+		<string>Highland</string>
+		<string>Brentwood</string>
+		<string>Novato</string>
+		<string>Colton</string>
+		<string>Cathedral City</string>
+		<string>Delano</string>
+		<string>Yucaipa</string>
+		<string>Watsonville</string>
+		<string>Placentia</string>
+		<string>Glendora</string>
+		<string>Gilroy</string>
+		<string>Palm Desert</string>
+		<string>Cerritos</string>
+		<string>West Sacramento</string>
+		<string>Aliso Viejo</string>
+		<string>Poway</string>
+		<string>La Mirada</string>
+		<string>Rancho Santa Margarita</string>
+		<string>Cypress</string>
+		<string>Dublin</string>
+		<string>Covina</string>
+		<string>Azusa</string>
+		<string>Palm Springs</string>
+		<string>San Luis Obispo</string>
+		<string>Ceres</string>
+		<string>San Jacinto</string>
+		<string>Lincoln</string>
+		<string>Newark</string>
+		<string>Lompoc</string>
+		<string>El Centro</string>
+		<string>Danville</string>
+		<string>Bell Gardens</string>
+		<string>Coachella</string>
+		<string>Rancho Palos Verdes</string>
+		<string>San Bruno</string>
+		<string>Rohnert Park</string>
+		<string>Brea</string>
+		<string>La Puente</string>
+		<string>Campbell</string>
+		<string>San Gabriel</string>
+		<string>Beaumont</string>
+		<string>Morgan Hill</string>
+		<string>Culver City</string>
+		<string>Calexico</string>
+		<string>Stanton</string>
+		<string>La Quinta</string>
+		<string>Pacifica</string>
+		<string>Montclair</string>
+		<string>Oakley</string>
+		<string>Monrovia</string>
+		<string>Los Banos</string>
+		<string>Martinez</string>
+	</array>
+	<key>Illinois</key>
+	<array>
+		<string>Chicago</string>
+		<string>Aurora</string>
+		<string>Rockford</string>
+		<string>Joliet</string>
+		<string>Naperville</string>
+		<string>Springfield</string>
+		<string>Peoria</string>
+		<string>Elgin</string>
+		<string>Waukegan</string>
+		<string>Cicero</string>
+		<string>Champaign</string>
+		<string>Bloomington</string>
+		<string>Arlington Heights</string>
+		<string>Evanston</string>
+		<string>Decatur</string>
+		<string>Schaumburg</string>
+		<string>Bolingbrook</string>
+		<string>Palatine</string>
+		<string>Skokie</string>
+		<string>Des Plaines</string>
+		<string>Orland Park</string>
+		<string>Tinley Park</string>
+		<string>Oak Lawn</string>
+		<string>Berwyn</string>
+		<string>Mount Prospect</string>
+		<string>Normal</string>
+		<string>Wheaton</string>
+		<string>Hoffman Estates</string>
+		<string>Oak Park</string>
+		<string>Downers Grove</string>
+		<string>Elmhurst</string>
+		<string>Glenview</string>
+		<string>DeKalb</string>
+		<string>Lombard</string>
+		<string>Belleville</string>
+		<string>Moline</string>
+		<string>Buffalo Grove</string>
+		<string>Bartlett</string>
+		<string>Urbana</string>
+		<string>Quincy</string>
+		<string>Crystal Lake</string>
+		<string>Plainfield</string>
+		<string>Streamwood</string>
+		<string>Carol Stream</string>
+		<string>Romeoville</string>
+		<string>Rock Island</string>
+		<string>Hanover Park</string>
+		<string>Carpentersville</string>
+		<string>Wheeling</string>
+		<string>Park Ridge</string>
+		<string>Addison</string>
+		<string>Calumet City</string>
+	</array>
+	<key>Texas</key>
+	<array>
+		<string>Houston</string>
+		<string>San Antonio</string>
+		<string>Dallas</string>
+		<string>Austin</string>
+		<string>Fort Worth</string>
+		<string>El Paso</string>
+		<string>Arlington</string>
+		<string>Corpus Christi</string>
+		<string>Plano</string>
+		<string>Laredo</string>
+		<string>Lubbock</string>
+		<string>Garland</string>
+		<string>Irving</string>
+		<string>Amarillo</string>
+		<string>Grand Prairie</string>
+		<string>Brownsville</string>
+		<string>Pasadena</string>
+		<string>McKinney</string>
+		<string>Mesquite</string>
+		<string>McAllen</string>
+		<string>Killeen</string>
+		<string>Frisco</string>
+		<string>Waco</string>
+		<string>Carrollton</string>
+		<string>Denton</string>
+		<string>Midland</string>
+		<string>Abilene</string>
+		<string>Beaumont</string>
+		<string>Round Rock</string>
+		<string>Odessa</string>
+		<string>Wichita Falls</string>
+		<string>Richardson</string>
+		<string>Lewisville</string>
+		<string>Tyler</string>
+		<string>College Station</string>
+		<string>Pearland</string>
+		<string>San Angelo</string>
+		<string>Allen</string>
+		<string>League City</string>
+		<string>Sugar Land</string>
+		<string>Longview</string>
+		<string>Edinburg</string>
+		<string>Mission</string>
+		<string>Bryan</string>
+		<string>Baytown</string>
+		<string>Pharr</string>
+		<string>Temple</string>
+		<string>Missouri City</string>
+		<string>Flower Mound</string>
+		<string>Harlingen</string>
+		<string>North Richland Hills</string>
+		<string>Victoria</string>
+		<string>Conroe</string>
+		<string>New Braunfels</string>
+		<string>Mansfield</string>
+		<string>Cedar Park</string>
+		<string>Rowlett</string>
+		<string>Port Arthur</string>
+		<string>Euless</string>
+		<string>Georgetown</string>
+		<string>Pflugerville</string>
+		<string>DeSoto</string>
+		<string>San Marcos</string>
+		<string>Grapevine</string>
+		<string>Bedford</string>
+		<string>Galveston</string>
+		<string>Cedar Hill</string>
+		<string>Texas City</string>
+		<string>Wylie</string>
+		<string>Haltom City</string>
+		<string>Keller</string>
+		<string>Coppell</string>
+		<string>Rockwall</string>
+		<string>Huntsville</string>
+		<string>Duncanville</string>
+		<string>Sherman</string>
+		<string>The Colony</string>
+		<string>Burleson</string>
+		<string>Hurst</string>
+		<string>Lancaster</string>
+		<string>Texarkana</string>
+		<string>Friendswood</string>
+		<string>Weslaco</string>
+	</array>
+	<key>Pennsylvania</key>
+	<array>
+		<string>Philadelphia</string>
+		<string>Pittsburgh</string>
+		<string>Allentown</string>
+		<string>Erie</string>
+		<string>Reading</string>
+		<string>Scranton</string>
+		<string>Bethlehem</string>
+		<string>Lancaster</string>
+		<string>Harrisburg</string>
+		<string>Altoona</string>
+		<string>York</string>
+		<string>State College</string>
+		<string>Wilkes-Barre</string>
+	</array>
+	<key>Arizona</key>
+	<array>
+		<string>Phoenix</string>
+		<string>Tucson</string>
+		<string>Mesa</string>
+		<string>Chandler</string>
+		<string>Glendale</string>
+		<string>Scottsdale</string>
+		<string>Gilbert</string>
+		<string>Tempe</string>
+		<string>Peoria</string>
+		<string>Surprise</string>
+		<string>Yuma</string>
+		<string>Avondale</string>
+		<string>Goodyear</string>
+		<string>Flagstaff</string>
+		<string>Buckeye</string>
+		<string>Lake Havasu City</string>
+		<string>Casa Grande</string>
+		<string>Sierra Vista</string>
+		<string>Maricopa</string>
+		<string>Oro Valley</string>
+		<string>Prescott</string>
+		<string>Bullhead City</string>
+		<string>Prescott Valley</string>
+		<string>Marana</string>
+		<string>Apache Junction</string>
+	</array>
+	<key>Florida</key>
+	<array>
+		<string>Jacksonville</string>
+		<string>Miami</string>
+		<string>Tampa</string>
+		<string>Orlando</string>
+		<string>St. Petersburg</string>
+		<string>Hialeah</string>
+		<string>Tallahassee</string>
+		<string>Fort Lauderdale</string>
+		<string>Port St. Lucie</string>
+		<string>Cape Coral</string>
+		<string>Pembroke Pines</string>
+		<string>Hollywood</string>
+		<string>Miramar</string>
+		<string>Gainesville</string>
+		<string>Coral Springs</string>
+		<string>Miami Gardens</string>
+		<string>Clearwater</string>
+		<string>Palm Bay</string>
+		<string>Pompano Beach</string>
+		<string>West Palm Beach</string>
+		<string>Lakeland</string>
+		<string>Davie</string>
+		<string>Miami Beach</string>
+		<string>Sunrise</string>
+		<string>Plantation</string>
+		<string>Boca Raton</string>
+		<string>Deltona</string>
+		<string>Largo</string>
+		<string>Deerfield Beach</string>
+		<string>Palm Coast</string>
+		<string>Melbourne</string>
+		<string>Boynton Beach</string>
+		<string>Lauderhill</string>
+		<string>Weston</string>
+		<string>Fort Myers</string>
+		<string>Kissimmee</string>
+		<string>Homestead</string>
+		<string>Tamarac</string>
+		<string>Delray Beach</string>
+		<string>Daytona Beach</string>
+		<string>North Miami</string>
+		<string>Wellington</string>
+		<string>North Port</string>
+		<string>Jupiter</string>
+		<string>Ocala</string>
+		<string>Port Orange</string>
+		<string>Margate</string>
+		<string>Coconut Creek</string>
+		<string>Sanford</string>
+		<string>Sarasota</string>
+		<string>Pensacola</string>
+		<string>Bradenton</string>
+		<string>Palm Beach Gardens</string>
+		<string>Pinellas Park</string>
+		<string>Coral Gables</string>
+		<string>Doral</string>
+		<string>Bonita Springs</string>
+		<string>Apopka</string>
+		<string>Titusville</string>
+		<string>North Miami Beach</string>
+		<string>Oakland Park</string>
+		<string>Fort Pierce</string>
+		<string>North Lauderdale</string>
+		<string>Cutler Bay</string>
+		<string>Altamonte Springs</string>
+		<string>St. Cloud</string>
+		<string>Greenacres</string>
+		<string>Ormond Beach</string>
+		<string>Ocoee</string>
+		<string>Hallandale Beach</string>
+		<string>Winter Garden</string>
+		<string>Aventura</string>
+	</array>
+	<key>Indiana</key>
+	<array>
+		<string>Indianapolis</string>
+		<string>Fort Wayne</string>
+		<string>Evansville</string>
+		<string>South Bend</string>
+		<string>Carmel</string>
+		<string>Bloomington</string>
+		<string>Fishers</string>
+		<string>Hammond</string>
+		<string>Gary</string>
+		<string>Muncie</string>
+		<string>Lafayette</string>
+		<string>Terre Haute</string>
+		<string>Kokomo</string>
+		<string>Anderson</string>
+		<string>Noblesville</string>
+		<string>Greenwood</string>
+		<string>Elkhart</string>
+		<string>Mishawaka</string>
+		<string>Lawrence</string>
+		<string>Jeffersonville</string>
+		<string>Columbus</string>
+		<string>Portage</string>
+	</array>
+	<key>Ohio</key>
+	<array>
+		<string>Columbus</string>
+		<string>Cleveland</string>
+		<string>Cincinnati</string>
+		<string>Toledo</string>
+		<string>Akron</string>
+		<string>Dayton</string>
+		<string>Parma</string>
+		<string>Canton</string>
+		<string>Youngstown</string>
+		<string>Lorain</string>
+		<string>Hamilton</string>
+		<string>Springfield</string>
+		<string>Kettering</string>
+		<string>Elyria</string>
+		<string>Lakewood</string>
+		<string>Cuyahoga Falls</string>
+		<string>Middletown</string>
+		<string>Euclid</string>
+		<string>Newark</string>
+		<string>Mansfield</string>
+		<string>Mentor</string>
+		<string>Beavercreek</string>
+		<string>Cleveland Heights</string>
+		<string>Strongsville</string>
+		<string>Dublin</string>
+		<string>Fairfield</string>
+		<string>Findlay</string>
+		<string>Warren</string>
+		<string>Lancaster</string>
+		<string>Lima</string>
+		<string>Huber Heights</string>
+		<string>Westerville</string>
+		<string>Marion</string>
+		<string>Grove City</string>
+	</array>
+	<key>North Carolina</key>
+	<array>
+		<string>Charlotte</string>
+		<string>Raleigh</string>
+		<string>Greensboro</string>
+		<string>Durham</string>
+		<string>Winston-Salem</string>
+		<string>Fayetteville</string>
+		<string>Cary</string>
+		<string>Wilmington</string>
+		<string>High Point</string>
+		<string>Greenville</string>
+		<string>Asheville</string>
+		<string>Concord</string>
+		<string>Gastonia</string>
+		<string>Jacksonville</string>
+		<string>Chapel Hill</string>
+		<string>Rocky Mount</string>
+		<string>Burlington</string>
+		<string>Wilson</string>
+		<string>Huntersville</string>
+		<string>Kannapolis</string>
+		<string>Apex</string>
+		<string>Hickory</string>
+		<string>Goldsboro</string>
+	</array>
+	<key>Michigan</key>
+	<array>
+		<string>Detroit</string>
+		<string>Grand Rapids</string>
+		<string>Warren</string>
+		<string>Sterling Heights</string>
+		<string>Ann Arbor</string>
+		<string>Lansing</string>
+		<string>Flint</string>
+		<string>Dearborn</string>
+		<string>Livonia</string>
+		<string>Westland</string>
+		<string>Troy</string>
+		<string>Farmington Hills</string>
+		<string>Kalamazoo</string>
+		<string>Wyoming</string>
+		<string>Southfield</string>
+		<string>Rochester Hills</string>
+		<string>Taylor</string>
+		<string>Pontiac</string>
+		<string>St. Clair Shores</string>
+		<string>Royal Oak</string>
+		<string>Novi</string>
+		<string>Dearborn Heights</string>
+		<string>Battle Creek</string>
+		<string>Saginaw</string>
+		<string>Kentwood</string>
+		<string>East Lansing</string>
+		<string>Roseville</string>
+		<string>Portage</string>
+		<string>Midland</string>
+		<string>Lincoln Park</string>
+		<string>Muskegon</string>
+	</array>
+	<key>Tennessee</key>
+	<array>
+		<string>Memphis</string>
+		<string>Nashville-Davidson</string>
+		<string>Knoxville</string>
+		<string>Chattanooga</string>
+		<string>Clarksville</string>
+		<string>Murfreesboro</string>
+		<string>Jackson</string>
+		<string>Franklin</string>
+		<string>Johnson City</string>
+		<string>Bartlett</string>
+		<string>Hendersonville</string>
+		<string>Kingsport</string>
+		<string>Collierville</string>
+		<string>Cleveland</string>
+		<string>Smyrna</string>
+		<string>Germantown</string>
+		<string>Brentwood</string>
+	</array>
+	<key>Massachusetts</key>
+	<array>
+		<string>Boston</string>
+		<string>Worcester</string>
+		<string>Springfield</string>
+		<string>Lowell</string>
+		<string>Cambridge</string>
+		<string>New Bedford</string>
+		<string>Brockton</string>
+		<string>Quincy</string>
+		<string>Lynn</string>
+		<string>Fall River</string>
+		<string>Newton</string>
+		<string>Lawrence</string>
+		<string>Somerville</string>
+		<string>Waltham</string>
+		<string>Haverhill</string>
+		<string>Malden</string>
+		<string>Medford</string>
+		<string>Taunton</string>
+		<string>Chicopee</string>
+		<string>Weymouth Town</string>
+		<string>Revere</string>
+		<string>Peabody</string>
+		<string>Methuen</string>
+		<string>Barnstable Town</string>
+		<string>Pittsfield</string>
+		<string>Attleboro</string>
+		<string>Everett</string>
+		<string>Salem</string>
+		<string>Westfield</string>
+		<string>Leominster</string>
+		<string>Fitchburg</string>
+		<string>Beverly</string>
+		<string>Holyoke</string>
+		<string>Marlborough</string>
+		<string>Woburn</string>
+		<string>Chelsea</string>
+	</array>
+	<key>Washington</key>
+	<array>
+		<string>Seattle</string>
+		<string>Spokane</string>
+		<string>Tacoma</string>
+		<string>Vancouver</string>
+		<string>Bellevue</string>
+		<string>Kent</string>
+		<string>Everett</string>
+		<string>Renton</string>
+		<string>Yakima</string>
+		<string>Federal Way</string>
+		<string>Spokane Valley</string>
+		<string>Bellingham</string>
+		<string>Kennewick</string>
+		<string>Auburn</string>
+		<string>Pasco</string>
+		<string>Marysville</string>
+		<string>Lakewood</string>
+		<string>Redmond</string>
+		<string>Shoreline</string>
+		<string>Richland</string>
+		<string>Kirkland</string>
+		<string>Burien</string>
+		<string>Sammamish</string>
+		<string>Olympia</string>
+		<string>Lacey</string>
+		<string>Edmonds</string>
+		<string>Bremerton</string>
+		<string>Puyallup</string>
+	</array>
+	<key>Colorado</key>
+	<array>
+		<string>Denver</string>
+		<string>Colorado Springs</string>
+		<string>Aurora</string>
+		<string>Fort Collins</string>
+		<string>Lakewood</string>
+		<string>Thornton</string>
+		<string>Arvada</string>
+		<string>Westminster</string>
+		<string>Pueblo</string>
+		<string>Centennial</string>
+		<string>Boulder</string>
+		<string>Greeley</string>
+		<string>Longmont</string>
+		<string>Loveland</string>
+		<string>Grand Junction</string>
+		<string>Broomfield</string>
+		<string>Castle Rock</string>
+		<string>Commerce City</string>
+		<string>Parker</string>
+		<string>Littleton</string>
+		<string>Northglenn</string>
+	</array>
+	<key>District of Columbia</key>
+	<array>
+		<string>Washington</string>
+	</array>
+	<key>Maryland</key>
+	<array>
+		<string>Baltimore</string>
+		<string>Frederick</string>
+		<string>Rockville</string>
+		<string>Gaithersburg</string>
+		<string>Bowie</string>
+		<string>Hagerstown</string>
+		<string>Annapolis</string>
+	</array>
+	<key>Kentucky</key>
+	<array>
+		<string>Louisville/Jefferson County</string>
+		<string>Lexington-Fayette</string>
+		<string>Bowling Green</string>
+		<string>Owensboro</string>
+		<string>Covington</string>
+	</array>
+	<key>Oregon</key>
+	<array>
+		<string>Portland</string>
+		<string>Eugene</string>
+		<string>Salem</string>
+		<string>Gresham</string>
+		<string>Hillsboro</string>
+		<string>Beaverton</string>
+		<string>Bend</string>
+		<string>Medford</string>
+		<string>Springfield</string>
+		<string>Corvallis</string>
+		<string>Albany</string>
+		<string>Tigard</string>
+		<string>Lake Oswego</string>
+		<string>Keizer</string>
+	</array>
+	<key>Oklahoma</key>
+	<array>
+		<string>Oklahoma City</string>
+		<string>Tulsa</string>
+		<string>Norman</string>
+		<string>Broken Arrow</string>
+		<string>Lawton</string>
+		<string>Edmond</string>
+		<string>Moore</string>
+		<string>Midwest City</string>
+		<string>Enid</string>
+		<string>Stillwater</string>
+		<string>Muskogee</string>
+	</array>
+	<key>Wisconsin</key>
+	<array>
+		<string>Milwaukee</string>
+		<string>Madison</string>
+		<string>Green Bay</string>
+		<string>Kenosha</string>
+		<string>Racine</string>
+		<string>Appleton</string>
+		<string>Waukesha</string>
+		<string>Eau Claire</string>
+		<string>Oshkosh</string>
+		<string>Janesville</string>
+		<string>West Allis</string>
+		<string>La Crosse</string>
+		<string>Sheboygan</string>
+		<string>Wauwatosa</string>
+		<string>Fond du Lac</string>
+		<string>New Berlin</string>
+		<string>Wausau</string>
+		<string>Brookfield</string>
+		<string>Greenfield</string>
+		<string>Beloit</string>
+	</array>
+	<key>Nevada</key>
+	<array>
+		<string>Las Vegas</string>
+		<string>Henderson</string>
+		<string>Reno</string>
+		<string>North Las Vegas</string>
+		<string>Sparks</string>
+		<string>Carson City</string>
+	</array>
+	<key>New Mexico</key>
+	<array>
+		<string>Albuquerque</string>
+		<string>Las Cruces</string>
+		<string>Rio Rancho</string>
+		<string>Santa Fe</string>
+		<string>Roswell</string>
+		<string>Farmington</string>
+		<string>Clovis</string>
+	</array>
+	<key>Missouri</key>
+	<array>
+		<string>Kansas City</string>
+		<string>St. Louis</string>
+		<string>Springfield</string>
+		<string>Independence</string>
+		<string>Columbia</string>
+		<string>Lee&apos;s Summit</string>
+		<string>O&apos;Fallon</string>
+		<string>St. Joseph</string>
+		<string>St. Charles</string>
+		<string>St. Peters</string>
+		<string>Blue Springs</string>
+		<string>Florissant</string>
+		<string>Joplin</string>
+		<string>Chesterfield</string>
+		<string>Jefferson City</string>
+		<string>Cape Girardeau</string>
+	</array>
+	<key>Virginia</key>
+	<array>
+		<string>Virginia Beach</string>
+		<string>Norfolk</string>
+		<string>Chesapeake</string>
+		<string>Richmond</string>
+		<string>Newport News</string>
+		<string>Alexandria</string>
+		<string>Hampton</string>
+		<string>Roanoke</string>
+		<string>Portsmouth</string>
+		<string>Suffolk</string>
+		<string>Lynchburg</string>
+		<string>Harrisonburg</string>
+		<string>Leesburg</string>
+		<string>Charlottesville</string>
+		<string>Danville</string>
+		<string>Blacksburg</string>
+		<string>Manassas</string>
+	</array>
+	<key>Georgia</key>
+	<array>
+		<string>Atlanta</string>
+		<string>Columbus</string>
+		<string>Augusta-Richmond County</string>
+		<string>Savannah</string>
+		<string>Athens-Clarke County</string>
+		<string>Sandy Springs</string>
+		<string>Roswell</string>
+		<string>Macon</string>
+		<string>Johns Creek</string>
+		<string>Albany</string>
+		<string>Warner Robins</string>
+		<string>Alpharetta</string>
+		<string>Marietta</string>
+		<string>Valdosta</string>
+		<string>Smyrna</string>
+		<string>Dunwoody</string>
+	</array>
+	<key>Nebraska</key>
+	<array>
+		<string>Omaha</string>
+		<string>Lincoln</string>
+		<string>Bellevue</string>
+		<string>Grand Island</string>
+	</array>
+	<key>Minnesota</key>
+	<array>
+		<string>Minneapolis</string>
+		<string>St. Paul</string>
+		<string>Rochester</string>
+		<string>Duluth</string>
+		<string>Bloomington</string>
+		<string>Brooklyn Park</string>
+		<string>Plymouth</string>
+		<string>St. Cloud</string>
+		<string>Eagan</string>
+		<string>Woodbury</string>
+		<string>Maple Grove</string>
+		<string>Eden Prairie</string>
+		<string>Coon Rapids</string>
+		<string>Burnsville</string>
+		<string>Blaine</string>
+		<string>Lakeville</string>
+		<string>Minnetonka</string>
+		<string>Apple Valley</string>
+		<string>Edina</string>
+		<string>St. Louis Park</string>
+		<string>Mankato</string>
+		<string>Maplewood</string>
+		<string>Moorhead</string>
+		<string>Shakopee</string>
+	</array>
+	<key>Kansas</key>
+	<array>
+		<string>Wichita</string>
+		<string>Overland Park</string>
+		<string>Kansas City</string>
+		<string>Olathe</string>
+		<string>Topeka</string>
+		<string>Lawrence</string>
+		<string>Shawnee</string>
+		<string>Manhattan</string>
+		<string>Lenexa</string>
+		<string>Salina</string>
+		<string>Hutchinson</string>
+	</array>
+	<key>Louisiana</key>
+	<array>
+		<string>New Orleans</string>
+		<string>Baton Rouge</string>
+		<string>Shreveport</string>
+		<string>Lafayette</string>
+		<string>Lake Charles</string>
+		<string>Kenner</string>
+		<string>Bossier City</string>
+		<string>Monroe</string>
+		<string>Alexandria</string>
+	</array>
+	<key>Hawaii</key>
+	<array>
+		<string>Honolulu</string>
+	</array>
+	<key>Alaska</key>
+	<array>
+		<string>Anchorage</string>
+	</array>
+	<key>New Jersey</key>
+	<array>
+		<string>Newark</string>
+		<string>Jersey City</string>
+		<string>Paterson</string>
+		<string>Elizabeth</string>
+		<string>Clifton</string>
+		<string>Trenton</string>
+		<string>Camden</string>
+		<string>Passaic</string>
+		<string>Union City</string>
+		<string>Bayonne</string>
+		<string>East Orange</string>
+		<string>Vineland</string>
+		<string>New Brunswick</string>
+		<string>Hoboken</string>
+		<string>Perth Amboy</string>
+		<string>West New York</string>
+		<string>Plainfield</string>
+		<string>Hackensack</string>
+		<string>Sayreville</string>
+		<string>Kearny</string>
+		<string>Linden</string>
+		<string>Atlantic City</string>
+	</array>
+	<key>Idaho</key>
+	<array>
+		<string>Boise City</string>
+		<string>Nampa</string>
+		<string>Meridian</string>
+		<string>Idaho Falls</string>
+		<string>Pocatello</string>
+		<string>Caldwell</string>
+		<string>Coeur d&apos;Alene</string>
+		<string>Twin Falls</string>
+	</array>
+	<key>Alabama</key>
+	<array>
+		<string>Birmingham</string>
+		<string>Montgomery</string>
+		<string>Mobile</string>
+		<string>Huntsville</string>
+		<string>Tuscaloosa</string>
+		<string>Hoover</string>
+		<string>Dothan</string>
+		<string>Auburn</string>
+		<string>Decatur</string>
+		<string>Madison</string>
+		<string>Florence</string>
+		<string>Gadsden</string>
+	</array>
+	<key>Iowa</key>
+	<array>
+		<string>Des Moines</string>
+		<string>Cedar Rapids</string>
+		<string>Davenport</string>
+		<string>Sioux City</string>
+		<string>Iowa City</string>
+		<string>Waterloo</string>
+		<string>Council Bluffs</string>
+		<string>Ames</string>
+		<string>West Des Moines</string>
+		<string>Dubuque</string>
+		<string>Ankeny</string>
+		<string>Urbandale</string>
+		<string>Cedar Falls</string>
+	</array>
+	<key>Arkansas</key>
+	<array>
+		<string>Little Rock</string>
+		<string>Fort Smith</string>
+		<string>Fayetteville</string>
+		<string>Springdale</string>
+		<string>Jonesboro</string>
+		<string>North Little Rock</string>
+		<string>Conway</string>
+		<string>Rogers</string>
+		<string>Pine Bluff</string>
+		<string>Bentonville</string>
+	</array>
+	<key>Utah</key>
+	<array>
+		<string>Salt Lake City</string>
+		<string>West Valley City</string>
+		<string>Provo</string>
+		<string>West Jordan</string>
+		<string>Orem</string>
+		<string>Sandy</string>
+		<string>Ogden</string>
+		<string>St. George</string>
+		<string>Layton</string>
+		<string>Taylorsville</string>
+		<string>South Jordan</string>
+		<string>Lehi</string>
+		<string>Logan</string>
+		<string>Murray</string>
+		<string>Draper</string>
+		<string>Bountiful</string>
+		<string>Riverton</string>
+		<string>Roy</string>
+	</array>
+	<key>Rhode Island</key>
+	<array>
+		<string>Providence</string>
+		<string>Warwick</string>
+		<string>Cranston</string>
+		<string>Pawtucket</string>
+		<string>East Providence</string>
+		<string>Woonsocket</string>
+	</array>
+	<key>Mississippi</key>
+	<array>
+		<string>Jackson</string>
+		<string>Gulfport</string>
+		<string>Southaven</string>
+		<string>Hattiesburg</string>
+		<string>Biloxi</string>
+		<string>Meridian</string>
+	</array>
+	<key>South Dakota</key>
+	<array>
+		<string>Sioux Falls</string>
+		<string>Rapid City</string>
+	</array>
+	<key>Connecticut</key>
+	<array>
+		<string>Bridgeport</string>
+		<string>New Haven</string>
+		<string>Stamford</string>
+		<string>Hartford</string>
+		<string>Waterbury</string>
+		<string>Norwalk</string>
+		<string>Danbury</string>
+		<string>New Britain</string>
+		<string>Meriden</string>
+		<string>Bristol</string>
+		<string>West Haven</string>
+		<string>Milford</string>
+		<string>Middletown</string>
+		<string>Norwich</string>
+		<string>Shelton</string>
+	</array>
+	<key>South Carolina</key>
+	<array>
+		<string>Columbia</string>
+		<string>Charleston</string>
+		<string>North Charleston</string>
+		<string>Mount Pleasant</string>
+		<string>Rock Hill</string>
+		<string>Greenville</string>
+		<string>Summerville</string>
+		<string>Sumter</string>
+		<string>Goose Creek</string>
+		<string>Hilton Head Island</string>
+		<string>Florence</string>
+		<string>Spartanburg</string>
+	</array>
+	<key>New Hampshire</key>
+	<array>
+		<string>Manchester</string>
+		<string>Nashua</string>
+		<string>Concord</string>
+	</array>
+	<key>North Dakota</key>
+	<array>
+		<string>Fargo</string>
+		<string>Bismarck</string>
+		<string>Grand Forks</string>
+		<string>Minot</string>
+	</array>
+	<key>Montana</key>
+	<array>
+		<string>Billings</string>
+		<string>Missoula</string>
+		<string>Great Falls</string>
+		<string>Bozeman</string>
+	</array>
+	<key>Delaware</key>
+	<array>
+		<string>Wilmington</string>
+		<string>Dover</string>
+	</array>
+	<key>Maine</key>
+	<array>
+		<string>Portland</string>
+	</array>
+	<key>Wyoming</key>
+	<array>
+		<string>Cheyenne</string>
+		<string>Casper</string>
+	</array>
+	<key>West Virginia</key>
+	<array>
+		<string>Charleston</string>
+		<string>Huntington</string>
+	</array>
+	<key>Vermont</key>
+	<array>
+		<string>Burlington</string>
+	</array>
+</dict>
 </plist>
-

@@ -12,18 +12,38 @@
         <!--Add Flight-->
         <scene sceneID="6o7-ZU-UrT">
             <objects>
-                <viewController id="ARN-67-07q" sceneMemberID="viewController">
+                <viewController id="ARN-67-07q" customClass="AddFlightVC" customModule="TicketBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qlK-jT-AcN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flight Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYh-mf-HBX">
+                                <rect key="frame" x="16" y="59" width="336" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="7vA-Z1-tiM">
+                                <rect key="frame" x="0.0" y="105" width="393" height="143"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flight Seat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOc-FB-5lS">
+                                <rect key="frame" x="16" y="227" width="361" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="AtM-ig-ztJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemCyanColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Add Flight" selectedImage="airplane" catalog="system" id="eTb-wX-9gR"/>
+                    <tabBarItem key="tabBarItem" title="Add Flight" image="airplane" catalog="system" id="eTb-wX-9gR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I69-KF-Bfe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335" y="-1013"/>
+            <point key="canvasLocation" x="-738.16793893129773" y="-683.09859154929586"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="QMN-UV-Nei">
@@ -35,7 +55,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="7wr-0j-bTz"/>
+                        <segue destination="FOd-HA-WLd" kind="relationship" relationship="viewControllers" id="cEk-wr-kgd"/>
+                        <segue destination="ARN-67-07q" kind="relationship" relationship="viewControllers" id="cms-kE-2ej"/>
+                        <segue destination="eJd-8P-aN0" kind="relationship" relationship="viewControllers" id="dSr-6b-AzH"/>
+                        <segue destination="uWc-L4-ofI" kind="relationship" relationship="viewControllers" id="xr1-A9-HR7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gck-8S-NXe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -45,34 +68,34 @@
         <!--User Info-->
         <scene sceneID="ajO-0t-z0A">
             <objects>
-                <viewController id="uWc-L4-ofI" sceneMemberID="viewController">
+                <viewController id="uWc-L4-ofI" customClass="UserInfoInputVC" customModule="TicketBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fvg-6r-J0A">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="wSD-JK-HCb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemCyanColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="User Info" selectedImage="person.badge.key.fill" catalog="system" id="Sj1-Dy-XUH"/>
+                    <tabBarItem key="tabBarItem" title="User Info" image="person.badge.key.fill" catalog="system" id="Sj1-Dy-XUH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RSy-07-GxD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1457" y="-66"/>
+            <point key="canvasLocation" x="-1572" y="25"/>
         </scene>
         <!--Book Ticket-->
         <scene sceneID="uHl-rx-xjZ">
             <objects>
-                <viewController id="eJd-8P-aN0" sceneMemberID="viewController">
+                <viewController id="eJd-8P-aN0" customClass="BookTicketVC" customModule="TicketBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WlX-Kk-KMn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="rNW-Ku-q7g"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemCyanColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Book Ticket" selectedImage="ticket.fill" catalog="system" id="EgJ-WT-wUF"/>
+                    <tabBarItem key="tabBarItem" title="Book Ticket" image="ticket.fill" catalog="system" id="EgJ-WT-wUF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wE4-c1-wPM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1014" y="-646"/>
+            <point key="canvasLocation" x="-640" y="25"/>
         </scene>
         <!--Enter Info-->
         <scene sceneID="tne-QT-ifu">
@@ -83,64 +106,63 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O88-7D-kex">
-                                <rect key="frame" x="20" y="59" width="45" height="21"/>
+                                <rect key="frame" x="20" y="103" width="45" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8SC-NI-hoh">
-                                <rect key="frame" x="20" y="90" width="353" height="34"/>
+                                <rect key="frame" x="20" y="133.33333333333334" width="353" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="mEh-bv-Yz0">
-                                <rect key="frame" x="0.0" y="205" width="393" height="34.333333333333343"/>
+                                <rect key="frame" x="0.0" y="247.66666666666666" width="393" height="34.333333333333343"/>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of Birth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzk-vS-9ce">
-                                <rect key="frame" x="20" y="174" width="96" height="21"/>
+                                <rect key="frame" x="20" y="217.33333333333334" width="96" height="20.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhY-df-kKC">
-                                <rect key="frame" x="20" y="320.33333333333331" width="90" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="v4m-8Z-6fz"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Country"/>
-                                <connections>
-                                    <action selector="SagueToCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FFV-3G-jNN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzX-TE-JFj">
-                                <rect key="frame" x="150" y="320.33333333333331" width="90" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="U6n-ST-xlG"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="State"/>
-                                <connections>
-                                    <action selector="SagueToState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0qb-01-OA8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkx-i7-obN">
-                                <rect key="frame" x="280" y="320.33333333333331" width="90" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="iMj-di-iz6"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="City"/>
-                                <connections>
-                                    <action selector="SagueToCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wdM-oF-5aL"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGV-c9-B6A">
-                                <rect key="frame" x="20" y="289.33333333333331" width="65.333333333333329" height="21"/>
+                                <rect key="frame" x="20" y="332" width="65.333333333333329" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="t6p-08-ZLv">
+                                <rect key="frame" x="16.666666666666657" y="362.33333333333331" width="360" height="34.333333333333314"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WhY-df-kKC">
+                                        <rect key="frame" x="0.0" y="0.0" width="93.333333333333329" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Country"/>
+                                        <connections>
+                                            <action selector="SagueToCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FFV-3G-jNN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzX-TE-JFj">
+                                        <rect key="frame" x="133.33333333333334" y="0.0" width="93.333333333333343" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="State"/>
+                                        <connections>
+                                            <action selector="SagueToState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0qb-01-OA8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkx-i7-obN">
+                                        <rect key="frame" x="266.66666666666663" y="0.0" width="93.333333333333314" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="City"/>
+                                        <connections>
+                                            <action selector="SagueToCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wdM-oF-5aL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="B97-wA-MmJ"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
@@ -148,26 +170,27 @@
                             <constraint firstItem="O88-7D-kex" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2zz-m4-GKn"/>
                             <constraint firstItem="mEh-bv-Yz0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Pd-tX-qVB"/>
                             <constraint firstItem="mEh-bv-Yz0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="4tu-zt-8c7"/>
-                            <constraint firstItem="Fkx-i7-obN" firstAttribute="top" secondItem="eGV-c9-B6A" secondAttribute="bottom" constant="10" id="BPb-z9-fkL"/>
                             <constraint firstItem="eGV-c9-B6A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JHw-uK-iZO"/>
-                            <constraint firstItem="kzX-TE-JFj" firstAttribute="leading" secondItem="WhY-df-kKC" secondAttribute="trailing" constant="40" id="Nsy-xb-tgX"/>
                             <constraint firstItem="mEh-bv-Yz0" firstAttribute="top" secondItem="Bzk-vS-9ce" secondAttribute="bottom" constant="10" id="QgV-ML-abY"/>
                             <constraint firstItem="O88-7D-kex" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SwO-NE-lw0"/>
                             <constraint firstItem="Bzk-vS-9ce" firstAttribute="top" secondItem="8SC-NI-hoh" secondAttribute="bottom" constant="50" id="U1w-kY-enU"/>
-                            <constraint firstItem="WhY-df-kKC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WAs-K8-hWX"/>
-                            <constraint firstItem="kzX-TE-JFj" firstAttribute="top" secondItem="eGV-c9-B6A" secondAttribute="bottom" constant="10" id="WR5-ld-AMJ"/>
                             <constraint firstItem="eGV-c9-B6A" firstAttribute="top" secondItem="mEh-bv-Yz0" secondAttribute="bottom" constant="50" id="YxE-yG-lRe"/>
                             <constraint firstItem="8SC-NI-hoh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aZ7-eh-DgI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8SC-NI-hoh" secondAttribute="trailing" constant="20" id="aoM-c0-TVe"/>
-                            <constraint firstItem="Fkx-i7-obN" firstAttribute="leading" secondItem="kzX-TE-JFj" secondAttribute="trailing" constant="40" id="eJ5-Gb-6N7"/>
-                            <constraint firstItem="WhY-df-kKC" firstAttribute="top" secondItem="eGV-c9-B6A" secondAttribute="bottom" constant="10" id="g3o-sL-btF"/>
+                            <constraint firstItem="t6p-08-ZLv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hpL-fP-CZS"/>
+                            <constraint firstItem="t6p-08-ZLv" firstAttribute="top" secondItem="eGV-c9-B6A" secondAttribute="bottom" constant="10" id="kBe-2N-nbr"/>
                             <constraint firstItem="8SC-NI-hoh" firstAttribute="top" secondItem="O88-7D-kex" secondAttribute="bottom" constant="10" id="sgr-GR-bb8"/>
                             <constraint firstItem="Bzk-vS-9ce" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yJ6-AM-M1e"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Add User" id="ACK-Pu-Jsp"/>
+                    <tabBarItem key="tabBarItem" title="Add User" image="person.fill.badge.plus" catalog="system" id="ACK-Pu-Jsp"/>
                     <navigationItem key="navigationItem" title="Enter Info" id="gSx-XA-DaA"/>
                     <connections>
+                        <outlet property="DOBLabel" destination="Bzk-vS-9ce" id="W9g-lL-ziq"/>
+                        <outlet property="DOBPicker" destination="mEh-bv-Yz0" id="Ooo-jM-2iL"/>
+                        <outlet property="LocationLabel" destination="eGV-c9-B6A" id="26v-NW-xNH"/>
+                        <outlet property="NameLabel" destination="O88-7D-kex" id="85n-sL-Pn5"/>
+                        <outlet property="NameText" destination="8SC-NI-hoh" id="0ll-uK-YeT"/>
                         <segue destination="OY6-VJ-eH4" kind="show" identifier="SagueToCountry" id="fjJ-bg-3RS"/>
                         <segue destination="SB9-SY-N1t" kind="show" identifier="SagueToState" id="92d-Bg-vek"/>
                         <segue destination="Sd5-bi-ll4" kind="show" identifier="SagueToCity" id="VVN-Xh-L6a"/>
@@ -175,18 +198,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1399" y="-1389"/>
+            <point key="canvasLocation" x="-341" y="-1565"/>
         </scene>
         <!--CountryVC-->
         <scene sceneID="DbN-9w-TO7">
             <objects>
                 <viewController id="OY6-VJ-eH4" customClass="CountryVC" customModule="TicketBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kW1-qv-98n">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mEs-XD-kMv">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="782"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="586"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CountryCell" id="YD4-jo-bl2" customClass="CountryCell" customModule="TicketBooking" customModuleProvider="target">
@@ -212,7 +235,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAq-Wn-KE7">
-                                <rect key="frame" x="136.66666666666666" y="807" width="119.99999999999997" height="35"/>
+                                <rect key="frame" x="136.66666666666666" y="734" width="119.99999999999997" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="KeB-05-DX0"/>
                                 </constraints>
@@ -230,7 +253,7 @@
                             <constraint firstItem="mEs-XD-kMv" firstAttribute="leading" secondItem="EpX-nC-kGU" secondAttribute="leading" id="5Do-rL-T4b"/>
                             <constraint firstItem="mEs-XD-kMv" firstAttribute="top" secondItem="EpX-nC-kGU" secondAttribute="top" id="T7R-I3-Yhj"/>
                             <constraint firstItem="MAq-Wn-KE7" firstAttribute="bottom" secondItem="EpX-nC-kGU" secondAttribute="bottom" id="bsO-LW-PU6"/>
-                            <constraint firstItem="EpX-nC-kGU" firstAttribute="bottom" secondItem="mEs-XD-kMv" secondAttribute="bottom" constant="60" id="bxg-hI-Jmz"/>
+                            <constraint firstItem="EpX-nC-kGU" firstAttribute="bottom" secondItem="mEs-XD-kMv" secondAttribute="bottom" constant="80" id="bxg-hI-Jmz"/>
                             <constraint firstItem="MAq-Wn-KE7" firstAttribute="centerX" secondItem="kW1-qv-98n" secondAttribute="centerX" id="kv7-kj-28x"/>
                         </constraints>
                     </view>
@@ -241,18 +264,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62Q-32-i95" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2355" y="-1572"/>
+            <point key="canvasLocation" x="447" y="-1884"/>
         </scene>
         <!--CityVC-->
         <scene sceneID="dIm-No-mEa">
             <objects>
                 <viewController id="Sd5-bi-ll4" customClass="CityVC" customModule="TicketBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SrG-ne-J5F">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="F6S-zG-c2J">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="782"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="606"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CityCell" id="df7-SB-ca3" customClass="CityCell" customModule="TicketBooking" customModuleProvider="target">
@@ -278,7 +301,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVb-UV-hLo">
-                                <rect key="frame" x="136.66666666666666" y="807" width="119.99999999999997" height="35"/>
+                                <rect key="frame" x="136.66666666666666" y="734" width="119.99999999999997" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="o6s-c5-tEb"/>
                                 </constraints>
@@ -307,18 +330,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TPE-2S-JC2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2355" y="-835"/>
+            <point key="canvasLocation" x="448" y="-1146"/>
         </scene>
         <!--StateVC-->
         <scene sceneID="bPy-Ij-aoj">
             <objects>
                 <viewController id="SB9-SY-N1t" customClass="StateVC" customModule="TicketBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RDf-9X-J7c">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VcY-Rz-wMD">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="782"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="606"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StateCell" id="K3V-Yg-Cca" customClass="StateCell" customModule="TicketBooking" customModuleProvider="target">
@@ -344,7 +367,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8O5-rx-Ec8">
-                                <rect key="frame" x="136.66666666666666" y="807" width="119.99999999999997" height="35"/>
+                                <rect key="frame" x="136.66666666666666" y="734" width="119.99999999999997" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="1fK-XM-KHw"/>
                                 </constraints>
@@ -373,12 +396,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="92x-GS-gKz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3155" y="-1233"/>
+            <point key="canvasLocation" x="1248" y="-1544"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Add User-->
         <scene sceneID="pZ1-Gj-Deo">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FOd-HA-WLd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Add User" image="person.fill.badge.plus" catalog="system" id="pmg-1R-IJa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gq6-Qr-k2P">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -391,15 +415,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sdE-bj-hMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="451" y="-1266"/>
+            <point key="canvasLocation" x="-1170" y="-1385"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="7wr-0j-bTz"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="airplane" catalog="system" width="128" height="115"/>
         <image name="person.badge.key.fill" catalog="system" width="128" height="125"/>
+        <image name="person.fill.badge.plus" catalog="system" width="128" height="126"/>
         <image name="ticket.fill" catalog="system" width="128" height="86"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
