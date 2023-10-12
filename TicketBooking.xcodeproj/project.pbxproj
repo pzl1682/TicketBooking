@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0859D2832AD7377800195964 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859D27A2AD7377800195964 /* CountryCell.swift */; };
+		0859D2842AD7377800195964 /* Country.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0859D27B2AD7377800195964 /* Country.plist */; };
+		0859D2852AD7377800195964 /* CountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859D27C2AD7377800195964 /* CountryVC.swift */; };
+		0859D2862AD7377800195964 /* CityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859D27D2AD7377800195964 /* CityVC.swift */; };
+		0859D2872AD7377800195964 /* UserInfoInputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859D27E2AD7377800195964 /* UserInfoInputVC.swift */; };
+		0859D2882AD7377800195964 /* StateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859D27F2AD7377800195964 /* StateVC.swift */; };
+		0859D2892AD7377800195964 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859D2802AD7377800195964 /* CityCell.swift */; };
+		0859D28A2AD7377800195964 /* StatesAndCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0859D2812AD7377800195964 /* StatesAndCities.plist */; };
+		0859D28B2AD7377800195964 /* StateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0859D2822AD7377800195964 /* StateCell.swift */; };
 		0867BEC52AD70E2A0014D3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0867BEC42AD70E2A0014D3B2 /* AppDelegate.swift */; };
 		0867BEC72AD70E2A0014D3B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0867BEC62AD70E2A0014D3B2 /* SceneDelegate.swift */; };
 		0867BEC92AD70E2A0014D3B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0867BEC82AD70E2A0014D3B2 /* ViewController.swift */; };
@@ -37,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0859D27A2AD7377800195964 /* CountryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		0859D27B2AD7377800195964 /* Country.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Country.plist; sourceTree = "<group>"; };
+		0859D27C2AD7377800195964 /* CountryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryVC.swift; sourceTree = "<group>"; };
+		0859D27D2AD7377800195964 /* CityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityVC.swift; sourceTree = "<group>"; };
+		0859D27E2AD7377800195964 /* UserInfoInputVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoInputVC.swift; sourceTree = "<group>"; };
+		0859D27F2AD7377800195964 /* StateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateVC.swift; sourceTree = "<group>"; };
+		0859D2802AD7377800195964 /* CityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		0859D2812AD7377800195964 /* StatesAndCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StatesAndCities.plist; sourceTree = "<group>"; };
+		0859D2822AD7377800195964 /* StateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateCell.swift; sourceTree = "<group>"; };
 		0867BEC12AD70E2A0014D3B2 /* TicketBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0867BEC42AD70E2A0014D3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0867BEC62AD70E2A0014D3B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +99,7 @@
 		0867BEB82AD70E2A0014D3B2 = {
 			isa = PBXGroup;
 			children = (
+				0867BEF82AD70E610014D3B2 /* LocationSelection */,
 				0867BEC32AD70E2A0014D3B2 /* TicketBooking */,
 				0867BEDD2AD70E2D0014D3B2 /* TicketBookingTests */,
 				0867BEE72AD70E2D0014D3B2 /* TicketBookingUITests */,
@@ -128,6 +147,22 @@
 				0867BEEA2AD70E2D0014D3B2 /* TicketBookingUITestsLaunchTests.swift */,
 			);
 			path = TicketBookingUITests;
+			sourceTree = "<group>";
+		};
+		0867BEF82AD70E610014D3B2 /* LocationSelection */ = {
+			isa = PBXGroup;
+			children = (
+				0859D2802AD7377800195964 /* CityCell.swift */,
+				0859D27D2AD7377800195964 /* CityVC.swift */,
+				0859D27B2AD7377800195964 /* Country.plist */,
+				0859D27A2AD7377800195964 /* CountryCell.swift */,
+				0859D27C2AD7377800195964 /* CountryVC.swift */,
+				0859D2822AD7377800195964 /* StateCell.swift */,
+				0859D2812AD7377800195964 /* StatesAndCities.plist */,
+				0859D27F2AD7377800195964 /* StateVC.swift */,
+				0859D27E2AD7377800195964 /* UserInfoInputVC.swift */,
+			);
+			path = LocationSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +271,9 @@
 			files = (
 				0867BED42AD70E2C0014D3B2 /* LaunchScreen.storyboard in Resources */,
 				0867BED12AD70E2C0014D3B2 /* Assets.xcassets in Resources */,
+				0859D28A2AD7377800195964 /* StatesAndCities.plist in Resources */,
 				0867BECC2AD70E2A0014D3B2 /* Main.storyboard in Resources */,
+				0859D2842AD7377800195964 /* Country.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0859D2882AD7377800195964 /* StateVC.swift in Sources */,
 				0867BEC92AD70E2A0014D3B2 /* ViewController.swift in Sources */,
+				0859D2892AD7377800195964 /* CityCell.swift in Sources */,
 				0867BEC52AD70E2A0014D3B2 /* AppDelegate.swift in Sources */,
+				0859D2832AD7377800195964 /* CountryCell.swift in Sources */,
+				0859D2852AD7377800195964 /* CountryVC.swift in Sources */,
+				0859D2872AD7377800195964 /* UserInfoInputVC.swift in Sources */,
+				0859D2862AD7377800195964 /* CityVC.swift in Sources */,
 				0867BEC72AD70E2A0014D3B2 /* SceneDelegate.swift in Sources */,
+				0859D28B2AD7377800195964 /* StateCell.swift in Sources */,
 				0867BECF2AD70E2A0014D3B2 /* TicketBooking.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +498,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +527,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
