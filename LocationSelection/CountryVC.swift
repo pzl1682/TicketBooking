@@ -16,7 +16,13 @@ class CountryVC: UIViewController {
     
 
     var countries = [String]()
+    var states = [String]()
+    var cities = [String]()
+    
     var selectedCountry: String?
+    var selectedState: String?
+    var selectedCity: String?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -25,6 +25,15 @@ class UserInfoInputVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "SagueToCountry"{
+//            if let destinationVC = segue.destination as? YourDestinationViewController
+//        }
+//    }
+    
+    
 
     
     @IBAction func SagueToCountry(_ sender: UIButton) {
