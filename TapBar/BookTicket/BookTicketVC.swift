@@ -1,5 +1,5 @@
 //
-//  AddFlightVC.swift
+//  BookTicketVC.swift
 //  TicketBooking
 //
 //  Created by Zhilin Pan on 10/12/23.
@@ -7,19 +7,34 @@
 
 import UIKit
 
-class AddFlightVC: UIViewController {
+class BookTicketVC: UIViewController {
 
-
     
     
     
-    @IBOutlet weak var GridView: UICollectionView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func SegueToUser(_ sender: UIButton) {
+        performSegue(withIdentifier: "SegueToUser", sender: nil)
+    }
+    
+    @IBAction func SegueToFlight(_ sender: UIButton) {
+        performSegue(withIdentifier: "SegueToFlight", sender: nil)
+    }
+    
+    
+    @IBAction func SubmitButtonTapped(_ sender: UIButton) {
+        
+    }
+    
+    
+    
     
     
     

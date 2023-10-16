@@ -1,13 +1,13 @@
 //
-//  BookTicketVC.swift
+//  ChooseFlightVC.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/12/23.
+//  Created by Zhilin Pan on 10/15/23.
 //
 
 import UIKit
 
-class BookTicketVC: UIViewController {
+class ChooseFlightVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

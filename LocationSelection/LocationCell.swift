@@ -1,15 +1,15 @@
 //
-//  CityCell.swift
-//  OfflineTicketBooking
+//  LocationCell.swift
+//  TicketBooking
 //
-//  Created by Zhilin Pan on 10/10/23.
+//  Created by Zhilin Pan on 10/15/23.
 //
 
 import UIKit
 
-class CityCell: UITableViewCell {
+class LocationCell: UITableViewCell {
 
-    @IBOutlet weak var CityLabel: UILabel!
+    @IBOutlet weak var LocationCellLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -1,19 +1,14 @@
 //
-//  StateCell.swift
-//  OfflineTicketBooking
+//  FlightCell.swift
+//  TicketBooking
 //
-//  Created by Zhilin Pan on 10/10/23.
+//  Created by Zhilin Pan on 10/15/23.
 //
 
 import UIKit
 
-class StateCell: UITableViewCell {
+class FlightCell: UITableViewCell {
 
-    
-    @IBOutlet weak var StateLabel: UILabel!
-    
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

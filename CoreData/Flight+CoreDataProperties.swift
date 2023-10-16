@@ -2,7 +2,7 @@
 //  Flight+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/13/23.
+//  Created by Zhilin Pan on 10/15/23.
 //
 //
 
@@ -16,11 +16,12 @@ extension Flight {
         return NSFetchRequest<Flight>(entityName: "Flight")
     }
 
-    @NSManaged public var destination: String?
     @NSManaged public var departure: String?
-    @NSManaged public var flightNumber: String?
+    @NSManaged public var destination: String?
     @NSManaged public var flightDate: Date?
+    @NSManaged public var flightNumber: String?
     @NSManaged public var flightHaveUsers: NSSet?
+    @NSManaged public var flightHaveSeats: NSSet?
     @NSManaged public var flightHaveTickets: NSSet?
 
 }
@@ -39,6 +40,23 @@ extension Flight {
 
     @objc(removeFlightHaveUsers:)
     @NSManaged public func removeFromFlightHaveUsers(_ values: NSSet)
+
+}
+
+// MARK: Generated accessors for flightHaveSeats
+extension Flight {
+
+    @objc(addFlightHaveSeatsObject:)
+    @NSManaged public func addToFlightHaveSeats(_ value: Seat)
+
+    @objc(removeFlightHaveSeatsObject:)
+    @NSManaged public func removeFromFlightHaveSeats(_ value: Seat)
+
+    @objc(addFlightHaveSeats:)
+    @NSManaged public func addToFlightHaveSeats(_ values: NSSet)
+
+    @objc(removeFlightHaveSeats:)
+    @NSManaged public func removeFromFlightHaveSeats(_ values: NSSet)
 
 }
 

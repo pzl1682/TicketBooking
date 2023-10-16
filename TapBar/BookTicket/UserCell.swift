@@ -1,17 +1,15 @@
 //
-//  CountryCell.swift
-//  OfflineTicketBooking
+//  UserCell.swift
+//  TicketBooking
 //
-//  Created by Zhilin Pan on 10/10/23.
+//  Created by Zhilin Pan on 10/15/23.
 //
 
 import UIKit
 
-class CountryCell: UITableViewCell {
+class UserCell: UITableViewCell {
 
-    @IBOutlet weak var CountryLabel: UILabel!
-    
-    
+    @IBOutlet weak var UserNameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
