@@ -1,5 +1,5 @@
 //
-//  Seat+CoreDataClass.swift
+//  User+CoreDataClass.swift
 //  TicketBooking
 //
 //  Created by Zhilin Pan on 10/16/23.
@@ -10,6 +10,6 @@ import Foundation
 import CoreData
 
 
-public class Seat: NSManagedObject {
+public class User: NSManagedObject {
 
 }

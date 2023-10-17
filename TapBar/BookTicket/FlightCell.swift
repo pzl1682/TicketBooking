@@ -9,6 +9,9 @@ import UIKit
 
 class FlightCell: UITableViewCell {
 
+    @IBOutlet weak var FlightNumberLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

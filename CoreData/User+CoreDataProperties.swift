@@ -1,8 +1,8 @@
 //
-//  Entity+CoreDataProperties.swift
+//  User+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/15/23.
+//  Created by Zhilin Pan on 10/16/23.
 //
 //
 
@@ -10,16 +10,16 @@ import Foundation
 import CoreData
 
 
-extension Entity {
+extension User {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Entity> {
-        return NSFetchRequest<Entity>(entityName: "User")
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<User> {
+        return NSFetchRequest<User>(entityName: "User")
     }
 
-    @NSManaged public var email: String?
     @NSManaged public var city: String?
     @NSManaged public var country: String?
     @NSManaged public var dob: Date?
+    @NSManaged public var email: String?
     @NSManaged public var name: String?
     @NSManaged public var state: String?
     @NSManaged public var userHaveFlights: NSSet?
@@ -27,7 +27,7 @@ extension Entity {
 }
 
 // MARK: Generated accessors for userHaveFlights
-extension Entity {
+extension User {
 
     @objc(addUserHaveFlightsObject:)
     @NSManaged public func addToUserHaveFlights(_ value: Flight)
@@ -43,6 +43,6 @@ extension Entity {
 
 }
 
-extension Entity : Identifiable {
+extension User : Identifiable {
 
 }

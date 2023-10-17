@@ -18,7 +18,7 @@
         <attribute name="bookingTime" optional="YES" attributeType="String"/>
         <relationship name="ticketShowFlight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Flight" inverseName="flightHaveTickets" inverseEntity="Flight"/>
     </entity>
-    <entity name="User" representedClassName=".Entity" syncable="YES">
+    <entity name="User" representedClassName=".User" syncable="YES">
         <attribute name="city" optional="YES" attributeType="String"/>
         <attribute name="country" optional="YES" attributeType="String"/>
         <attribute name="dob" optional="YES" attributeType="Date" usesScalarValueType="NO"/>

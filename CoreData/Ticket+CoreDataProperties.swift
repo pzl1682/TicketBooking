@@ -2,7 +2,7 @@
 //  Ticket+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/15/23.
+//  Created by Zhilin Pan on 10/16/23.
 //
 //
 
@@ -16,7 +16,7 @@ extension Ticket {
         return NSFetchRequest<Ticket>(entityName: "Ticket")
     }
 
-    @NSManaged public var flightNumber: String?
+    @NSManaged public var bookingTime: String?
     @NSManaged public var ticketShowFlight: Flight?
 
 }

@@ -2,7 +2,7 @@
 //  Flight+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/15/23.
+//  Created by Zhilin Pan on 10/16/23.
 //
 //
 
@@ -18,28 +18,12 @@ extension Flight {
 
     @NSManaged public var departure: String?
     @NSManaged public var destination: String?
-    @NSManaged public var flightDate: Date?
     @NSManaged public var flightNumber: String?
-    @NSManaged public var flightHaveUsers: NSSet?
+    @NSManaged public var flightTime: Date?
+    @NSManaged public var numberOfSeats: Int32
     @NSManaged public var flightHaveSeats: NSSet?
     @NSManaged public var flightHaveTickets: NSSet?
-
-}
-
-// MARK: Generated accessors for flightHaveUsers
-extension Flight {
-
-    @objc(addFlightHaveUsersObject:)
-    @NSManaged public func addToFlightHaveUsers(_ value: Entity)
-
-    @objc(removeFlightHaveUsersObject:)
-    @NSManaged public func removeFromFlightHaveUsers(_ value: Entity)
-
-    @objc(addFlightHaveUsers:)
-    @NSManaged public func addToFlightHaveUsers(_ values: NSSet)
-
-    @objc(removeFlightHaveUsers:)
-    @NSManaged public func removeFromFlightHaveUsers(_ values: NSSet)
+    @NSManaged public var flightHaveUsers: NSSet?
 
 }
 
@@ -74,6 +58,23 @@ extension Flight {
 
     @objc(removeFlightHaveTickets:)
     @NSManaged public func removeFromFlightHaveTickets(_ values: NSSet)
+
+}
+
+// MARK: Generated accessors for flightHaveUsers
+extension Flight {
+
+    @objc(addFlightHaveUsersObject:)
+    @NSManaged public func addToFlightHaveUsers(_ value: User)
+
+    @objc(removeFlightHaveUsersObject:)
+    @NSManaged public func removeFromFlightHaveUsers(_ value: User)
+
+    @objc(addFlightHaveUsers:)
+    @NSManaged public func addToFlightHaveUsers(_ values: NSSet)
+
+    @objc(removeFlightHaveUsers:)
+    @NSManaged public func removeFromFlightHaveUsers(_ values: NSSet)
 
 }
 

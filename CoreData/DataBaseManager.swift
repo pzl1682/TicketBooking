@@ -63,30 +63,52 @@ class DataBaseManager: NSObject{
     
     
     
-    func fetchUserData(entity: String, nameSearch: String){
-        let fetch = NSFetchRequest<NSFetchRequestResult>.init(entityName: entity)
+    func fetchUserData(entity: String, nameSearch: String) -> [NSManagedObject]?{
+        let fetch = NSFetchRequest<NSManagedObject>.init(entityName: entity)
+        var predicate: NSPredicate?
+        fetch.predicate = predicate
+        
+        if nameSearch.isEmpty{
+            
+        }
+        else{
+            predicate = NSPredicate(format: "name == %@", nameSearch)
+        }
+        
         do{
-            let obj = try self.managedContext?.fetch(fetch)
-            print(obj!)
+            let users = try self.managedContext.fetch(fetch)
+            print(users)
+            return users
         }
         catch{
             print("Error")
+            return nil
         }
-        
-        
         
     }
     
     
     
-    func fetchFlightData(entity: String, flightNumberSearch: String){
-        let fetch = NSFetchRequest<NSFetchRequestResult>.init(entityName: entity)
+    func fetchFlightData(entity: String, flightNumberSearch: String) -> [NSManagedObject]?{
+        let fetch = NSFetchRequest<NSManagedObject>.init(entityName: entity)
+        var predicate: NSPredicate?
+        fetch.predicate = predicate
+        
+        if flightNumberSearch.isEmpty{
+            
+        }
+        else{
+            predicate = NSPredicate(format: "flightNumber == %@", flightNumberSearch)
+        }
+
+        
         do{
-            let obj = try self.managedContext?.fetch(fetch)
-            print(obj)
+            let flights = try self.managedContext?.fetch(fetch)
+            return flights
         }
         catch{
             print("Error")
+            return nil
         }
         
         

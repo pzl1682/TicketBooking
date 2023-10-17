@@ -309,6 +309,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Off-jK-Pl1"/>
+                    <connections>
+                        <outlet property="tableView" destination="IRW-MK-2c0" id="Jo0-Ne-05h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Udf-L9-ELc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -326,13 +329,25 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="RF7-eg-eII">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FlightCell" id="RF7-eg-eII" customClass="FlightCell" customModule="TicketBooking" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RF7-eg-eII" id="FuA-rE-xxe" customClass="UserCell" customModule="TicketBooking" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4C-zG-07a">
+                                                    <rect key="frame" x="20" y="11" width="353" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="FlightNumberLabel" destination="e4C-zG-07a" id="WR8-CD-mMV"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -347,10 +362,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="I4Z-TX-sLw"/>
+                    <connections>
+                        <outlet property="tableView" destination="fG8-NX-PKn" id="suI-ir-LBG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MeC-il-fkP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="859" y="-379"/>
+            <point key="canvasLocation" x="858.77862595419845" y="-379.57746478873241"/>
         </scene>
         <!--Enter User Info-->
         <scene sceneID="tne-QT-ifu">
@@ -612,7 +630,6 @@
         <!--Add Flight-->
         <scene sceneID="Aay-nw-kK4">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="n5J-3h-DXn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4EQ-Tu-bA6" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Add Flight" image="airplane" catalog="system" id="eTb-wX-9gR"/>
                     <toolbarItems/>
@@ -625,13 +642,13 @@
                         <segue destination="ARN-67-07q" kind="relationship" relationship="rootViewController" id="BH6-X0-L2A"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n5J-3h-DXn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-859" y="-1488"/>
         </scene>
         <!--Book Ticket-->
         <scene sceneID="vEo-d9-jh8">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v66-uA-FiL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5uw-2p-uAq" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Book Ticket" image="ticket.fill" catalog="system" id="EgJ-WT-wUF"/>
                     <toolbarItems/>
@@ -644,6 +661,7 @@
                         <segue destination="eJd-8P-aN0" kind="relationship" relationship="rootViewController" id="G7I-IK-D1M"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v66-uA-FiL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-860.30534351145036" y="-830.28169014084506"/>
         </scene>
