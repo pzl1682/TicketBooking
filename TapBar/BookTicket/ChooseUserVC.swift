@@ -13,37 +13,47 @@ class ChooseUserVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var users:[User]!
-    
+    var selectedUser: String?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         tableView.dataSource = self
         tableView.delegate = self
         
-        fetchUserData()
-        
+        fetchUsersData()
+//        for user in users{
+//            print(user as User)
+//        }
         // Do any additional setup after loading the view.
     }
     
-    func fetchUserData(){
+
+    
+    func fetchUsersData(){
         if let fetch = DataBaseManager.shared.fetchUserData(entity: "User", nameSearch: "") as? [User]{
             users = fetch
         }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func SegueToUserDetail(_ sender: UIButton) {
+        performSegue(withIdentifier: "SegueToUserDetail", sender: nil)
     }
-    */
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if selectedUser == nil {
+            let failalert = UIAlertController(title: "Alert", message: "Select a user to view detail!", preferredStyle: .alert)
+            failalert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            present(failalert, animated: true, completion: nil)
+        }
+        else if let destinationVC = segue.destination as? UserDetailVC{
+            destinationVC.name = selectedUser
+            if let fetch = DataBaseManager.shared.fetchUserData(entity: "User", nameSearch: selectedUser!) as? [User]{
+                destinationVC.user = fetch
+            }
+        }
+    }
 }
 
 
@@ -74,10 +84,29 @@ extension ChooseUserVC: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-
+        let user = self.users![indexPath.row]
+        selectedUser = user.name
+        print(selectedUser)
+//        print(indexPath.row)
     }
     
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let action = UIContextualAction(style: .destructive, title: "Delete") { (action, view, completionHandler) in
+            
+            let removePerson = self.users[indexPath.row].name
+            self.users.remove(at: indexPath.row)
+            DataBaseManager.shared.deleteUserData(entity: "User", name: removePerson!)
+            
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            
+            
+        }
+        
+        return UISwipeActionsConfiguration(actions: [action])
+        
+    }
     
     
 }

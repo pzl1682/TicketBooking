@@ -61,27 +61,20 @@ class DataBaseManager: NSObject{
     }
     
     
-    
-    
     func fetchUserData(entity: String, nameSearch: String) -> [NSManagedObject]?{
         let fetch = NSFetchRequest<NSManagedObject>.init(entityName: entity)
-        var predicate: NSPredicate?
-        fetch.predicate = predicate
         
-        if nameSearch.isEmpty{
-            
-        }
-        else{
-            predicate = NSPredicate(format: "name == %@", nameSearch)
+        if !nameSearch.isEmpty{
+            fetch.predicate = NSPredicate(format: "name == %@", nameSearch)
         }
         
         do{
-            let users = try self.managedContext.fetch(fetch)
-            print(users)
+            let users = try self.managedContext?.fetch(fetch)
+//            print(users)
             return users
         }
         catch{
-            print("Error")
+            print("Error when fetching user data")
             return nil
         }
         
@@ -91,28 +84,58 @@ class DataBaseManager: NSObject{
     
     func fetchFlightData(entity: String, flightNumberSearch: String) -> [NSManagedObject]?{
         let fetch = NSFetchRequest<NSManagedObject>.init(entityName: entity)
-        var predicate: NSPredicate?
-        fetch.predicate = predicate
         
-        if flightNumberSearch.isEmpty{
-            
-        }
-        else{
-            predicate = NSPredicate(format: "flightNumber == %@", flightNumberSearch)
+        if !flightNumberSearch.isEmpty{
+            fetch.predicate = NSPredicate(format: "flightNumber == %@", flightNumberSearch)
         }
 
-        
         do{
             let flights = try self.managedContext?.fetch(fetch)
             return flights
         }
         catch{
-            print("Error")
+            print("Error when fetching flight data")
             return nil
         }
         
         
         
+    }
+    
+    
+    func deleteUserData(entity: String, name: String){
+        let fetch = NSFetchRequest<NSManagedObject>.init(entityName: entity)
+        fetch.predicate = NSPredicate(format: "name == %@", name)
+        
+        do{
+            if let result = try self.managedContext.fetch(fetch).first{
+                self.managedContext.delete(result)
+                
+                guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else{return}
+                appDelegate.saveContext()
+            }
+        }
+        catch{
+            print("Error when deleting User Data")
+        }
+    }
+    
+    
+    func deleteFlightData(entity: String, flightNumber: String){
+        let fetch = NSFetchRequest<NSManagedObject>.init(entityName: entity)
+        fetch.predicate = NSPredicate(format: "flightNumber == %@", flightNumber)
+        
+        do{
+            if let result = try self.managedContext.fetch(fetch).first{
+                self.managedContext.delete(result)
+                
+                guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else{return}
+                appDelegate.saveContext()
+            }
+        }
+        catch{
+            print("Error when deleting Flight Data")
+        }
     }
     
     

@@ -2,7 +2,7 @@
 //  Flight+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/16/23.
+//  Created by Zhilin Pan on 10/19/23.
 //
 //
 
@@ -21,9 +21,25 @@ extension Flight {
     @NSManaged public var flightNumber: String?
     @NSManaged public var flightTime: Date?
     @NSManaged public var numberOfSeats: Int32
+    @NSManaged public var flightHavePassengers: NSSet?
     @NSManaged public var flightHaveSeats: NSSet?
-    @NSManaged public var flightHaveTickets: NSSet?
-    @NSManaged public var flightHaveUsers: NSSet?
+
+}
+
+// MARK: Generated accessors for flightHavePassengers
+extension Flight {
+
+    @objc(addFlightHavePassengersObject:)
+    @NSManaged public func addToFlightHavePassengers(_ value: User)
+
+    @objc(removeFlightHavePassengersObject:)
+    @NSManaged public func removeFromFlightHavePassengers(_ value: User)
+
+    @objc(addFlightHavePassengers:)
+    @NSManaged public func addToFlightHavePassengers(_ values: NSSet)
+
+    @objc(removeFlightHavePassengers:)
+    @NSManaged public func removeFromFlightHavePassengers(_ values: NSSet)
 
 }
 
@@ -41,40 +57,6 @@ extension Flight {
 
     @objc(removeFlightHaveSeats:)
     @NSManaged public func removeFromFlightHaveSeats(_ values: NSSet)
-
-}
-
-// MARK: Generated accessors for flightHaveTickets
-extension Flight {
-
-    @objc(addFlightHaveTicketsObject:)
-    @NSManaged public func addToFlightHaveTickets(_ value: Ticket)
-
-    @objc(removeFlightHaveTicketsObject:)
-    @NSManaged public func removeFromFlightHaveTickets(_ value: Ticket)
-
-    @objc(addFlightHaveTickets:)
-    @NSManaged public func addToFlightHaveTickets(_ values: NSSet)
-
-    @objc(removeFlightHaveTickets:)
-    @NSManaged public func removeFromFlightHaveTickets(_ values: NSSet)
-
-}
-
-// MARK: Generated accessors for flightHaveUsers
-extension Flight {
-
-    @objc(addFlightHaveUsersObject:)
-    @NSManaged public func addToFlightHaveUsers(_ value: User)
-
-    @objc(removeFlightHaveUsersObject:)
-    @NSManaged public func removeFromFlightHaveUsers(_ value: User)
-
-    @objc(addFlightHaveUsers:)
-    @NSManaged public func addToFlightHaveUsers(_ values: NSSet)
-
-    @objc(removeFlightHaveUsers:)
-    @NSManaged public func removeFromFlightHaveUsers(_ values: NSSet)
 
 }
 

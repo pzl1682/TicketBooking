@@ -10,7 +10,7 @@ import CoreData
 
 class UserInfoInputVC: UIViewController {
     
-
+    
     var selectedCountry: String?
     var selectedState: String?
     var selectedCity: String?
@@ -24,7 +24,7 @@ class UserInfoInputVC: UIViewController {
     
     @IBOutlet weak var LocationLabel: UILabel!
     
-
+    
     @IBOutlet weak var EmailLabel: UILabel!
     @IBOutlet weak var EmailText: UITextField!
     
@@ -35,10 +35,10 @@ class UserInfoInputVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        print(selectedCountry)
-//        print(selectedState)
-//        print(selectedCity)
+        
+        //        print(selectedCountry)
+        //        print(selectedState)
+        //        print(selectedCity)
         
         
         
@@ -52,7 +52,7 @@ class UserInfoInputVC: UIViewController {
     
     
     
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "SagueToCountry" {
             if let destinationVC = segue.destination as? LocationVC {
@@ -72,7 +72,7 @@ class UserInfoInputVC: UIViewController {
             }
         }
     }
-
+    
     
     
     
@@ -109,24 +109,33 @@ class UserInfoInputVC: UIViewController {
     
     
     @IBAction func SaveUerInfo(_ sender: UIButton) {
-        DataBaseManager.shared.saveUserData(name: NameText.text!, country: CountryLabel.text!, state: StateLabel.text!, city: CityLabel.text!, email: EmailText.text!, dob: DOBPicker.date, entity: "User")
-        let alert = UIAlertController(title: "Successful", message: "Successfully Saved User Info!", preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
         
-        DataBaseManager.shared.fetchUserData(entity: "User", nameSearch: "")
+        if NameText.text?.isEmpty == true || EmailText.text?.isEmpty == true || CountryLabel.text == "Country" || StateLabel.text == "State" || CityLabel.text == "City"{
+            let failalert = UIAlertController(title: "Alert", message: "Please fill in all the required fields.", preferredStyle: .alert)
+            failalert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            present(failalert, animated: true, completion: nil)
+        }
+        else{
+            
+            DataBaseManager.shared.saveUserData(name: NameText.text!, country: CountryLabel.text!, state: StateLabel.text!, city: CityLabel.text!, email: EmailText.text!, dob: DOBPicker.date, entity: "User")
+            let successalert = UIAlertController(title: "Successful", message: "Successfully Saved User Info!", preferredStyle: UIAlertController.Style.alert)
+            successalert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            self.present(successalert, animated: true, completion: nil)
+            
+//            DataBaseManager.shared.fetchUserData(entity: "User", nameSearch: "")
+        }
+        
+        
+        
+        /*
+         // MARK: - Navigation
+         
+         // In a storyboard-based application, you will often want to do a little preparation before navigation
+         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         // Get the new view controller using segue.destination.
+         // Pass the selected object to the new view controller.
+         }
+         */
+        
     }
-    
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

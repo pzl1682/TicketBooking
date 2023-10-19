@@ -2,7 +2,7 @@
 //  Seat+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/16/23.
+//  Created by Zhilin Pan on 10/19/23.
 //
 //
 
@@ -16,7 +16,7 @@ extension Seat {
         return NSFetchRequest<Seat>(entityName: "Seat")
     }
 
-    @NSManaged public var seatNumber: Int32
+    @NSManaged public var bookedSeatNumber: Int32
     @NSManaged public var seatInFlight: Flight?
 
 }

@@ -13,7 +13,8 @@ class ChooseFlightVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var flights:[Flight]!
-    
+    var selectedFlight: String!
+    var userName: String!
     
     
     override func viewDidLoad() {
@@ -34,15 +35,24 @@ class ChooseFlightVC: UIViewController {
         }
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func SegueToFlightDetail(_ sender: UIButton) {
+        performSegue(withIdentifier: "SegueToFlightDetail", sender: nil)
     }
-    */
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if selectedFlight == nil {
+            let failalert = UIAlertController(title: "Alert", message: "Select a flight to view detail!", preferredStyle: .alert)
+            failalert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            present(failalert, animated: true, completion: nil)
+        }
+        else if let destinationVC = segue.destination as? FlightDetailVC{
+            destinationVC.flightNumber = selectedFlight
+            destinationVC.userName = self.userName
+        }
+    }
+    
+    
 
 }
 
@@ -74,8 +84,27 @@ extension ChooseFlightVC: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let flight = self.flights![indexPath.row]
+        selectedFlight = flight.flightNumber
         
-
+    }
+    
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let action = UIContextualAction(style: .destructive, title: "Delete") { (action, view, completionHandler) in
+            
+            let removeFlight = self.flights[indexPath.row].flightNumber
+            self.flights.remove(at: indexPath.row)
+            DataBaseManager.shared.deleteFlightData(entity: "Flight", flightNumber: removeFlight!)
+            
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
+            
+            
+        }
+        
+        return UISwipeActionsConfiguration(actions: [action])
+        
     }
     
     
