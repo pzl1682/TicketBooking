@@ -102,8 +102,8 @@ class BookTicketVC: UIViewController {
             let newSeat = NSEntityDescription.insertNewObject(forEntityName: "Seat", into: managedContext) as! Seat
             newSeat.bookedSeatNumber = Int32(seatnumber!)
             newSeat.flightNumber = flight.flightNumber
-            newSeat.userName = user.name
             flight.addToFlightHaveSeats(newSeat)
+            user.addToUserHaveSeats(newSeat)
             
 
             

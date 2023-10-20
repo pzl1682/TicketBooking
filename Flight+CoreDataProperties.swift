@@ -2,7 +2,7 @@
 //  Flight+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/19/23.
+//  Created by Zhilin Pan on 10/20/23.
 //
 //
 

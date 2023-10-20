@@ -2,7 +2,7 @@
 //  Seat+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/19/23.
+//  Created by Zhilin Pan on 10/20/23.
 //
 //
 
@@ -18,7 +18,6 @@ extension Seat {
 
     @NSManaged public var bookedSeatNumber: Int32
     @NSManaged public var flightNumber: String?
-    @NSManaged public var userName: String?
 
 }
 

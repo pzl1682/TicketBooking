@@ -14,7 +14,7 @@ class MyFileManager {
         let fileManager = FileManager.default
         if let documentsDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first {
             let folderURL = documentsDirectory.appendingPathComponent(folderName)
-//            print(folderURL)
+            print(folderURL)
             
             if !fileManager.fileExists(atPath: folderURL.path) {
                 try fileManager.createDirectory(at: folderURL, withIntermediateDirectories: true, attributes: nil)

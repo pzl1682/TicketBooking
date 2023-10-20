@@ -2,7 +2,7 @@
 //  User+CoreDataProperties.swift
 //  TicketBooking
 //
-//  Created by Zhilin Pan on 10/19/23.
+//  Created by Zhilin Pan on 10/20/23.
 //
 //
 
@@ -23,6 +23,7 @@ extension User {
     @NSManaged public var name: String?
     @NSManaged public var state: String?
     @NSManaged public var userBookFlights: NSSet?
+    @NSManaged public var userHaveSeats: NSSet?
 
 }
 
@@ -40,6 +41,23 @@ extension User {
 
     @objc(removeUserBookFlights:)
     @NSManaged public func removeFromUserBookFlights(_ values: NSSet)
+
+}
+
+// MARK: Generated accessors for userHaveSeats
+extension User {
+
+    @objc(addUserHaveSeatsObject:)
+    @NSManaged public func addToUserHaveSeats(_ value: Seat)
+
+    @objc(removeUserHaveSeatsObject:)
+    @NSManaged public func removeFromUserHaveSeats(_ value: Seat)
+
+    @objc(addUserHaveSeats:)
+    @NSManaged public func addToUserHaveSeats(_ values: NSSet)
+
+    @objc(removeUserHaveSeats:)
+    @NSManaged public func removeFromUserHaveSeats(_ values: NSSet)
 
 }
 

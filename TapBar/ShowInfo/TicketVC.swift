@@ -11,7 +11,8 @@ class TicketVC: UIViewController {
     
     var selectedUser: User?
     var selectedFlight: Flight?
-    var seat: [Seat]!
+    var seatText: String!
+    
     
     @IBOutlet weak var UserName: UILabel!
     @IBOutlet weak var UserDOB: UILabel!
@@ -27,10 +28,18 @@ class TicketVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        fetchSeatData()
         
-//        print(seat)
+        let userBookedSeats = selectedUser!.userHaveSeats
+        let userAllSeats = userBookedSeats?.allObjects as? [Seat]
+        for se in userAllSeats! {
+            print(selectedFlight?.flightNumber)
+            print(se.flightNumber)
+            if se.flightNumber == selectedFlight?.flightNumber{
+                seatText = String(se.bookedSeatNumber)
+                FlightSeat.text = seatText
+            }
+        }
+        
         
         
         let dateFormatter = DateFormatter()
@@ -50,8 +59,6 @@ class TicketVC: UIViewController {
         FlightNumber.text = selectedFlight?.flightNumber
         FlightTime.text = timeString
         
-        FlightSeat.text = String(seat[0].bookedSeatNumber)
-        
         // Do any additional setup after loading the view.
     }
     
@@ -70,7 +77,7 @@ class TicketVC: UIViewController {
     func saveScreenShot() {
             if let screenShot = takeScreenShot(){
                 do{
-                    let filename: String = selectedUser!.name! + (selectedFlight?.flightNumber)! + String(seat[0].bookedSeatNumber) + ".png"
+                    let filename: String = selectedUser!.name! + (selectedFlight?.flightNumber)! + seatText + ".png"
                     try MyFileManager.saveImage(screenShot, to: "Image", with: filename)
                 }
                 catch{
@@ -79,13 +86,10 @@ class TicketVC: UIViewController {
             }
     }
     
+
     
     
-    func fetchSeatData(){
-        if let fetch = DataBaseManager.shared.fetchSeatData(entity: "Seat", flightNumber: (selectedFlight?.flightNumber)!, userName: (selectedUser?.name)!) as? [Seat]{
-            seat = fetch
-        }
-    }
+    
     
     
     

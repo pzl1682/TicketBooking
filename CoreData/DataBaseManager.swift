@@ -100,14 +100,11 @@ class DataBaseManager: NSObject{
     }
     
     
-    func fetchSeatData(entity: String, flightNumber: String, userName: String) -> [NSManagedObject]? {
+    func fetchSeatData(entity: String, flightNumber: String) -> [NSManagedObject]? {
         let fetch = NSFetchRequest<NSManagedObject>.init(entityName: entity)
         
-        let flightPredicate = NSPredicate(format: "flightNumber == %@", flightNumber)
-        let userPredicate = NSPredicate(format: "userName == %@", userName)
-        
-        let compoundPredicate = NSCompoundPredicate(type: .and, subpredicates: [flightPredicate, userPredicate])
-        fetch.predicate = compoundPredicate
+        let Predicate = NSPredicate(format: "flightNumber == %@", flightNumber)
+        fetch.predicate = Predicate
         
         do{
             let seats = try self.managedContext?.fetch(fetch)
