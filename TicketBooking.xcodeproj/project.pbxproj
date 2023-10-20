@@ -32,7 +32,6 @@
 		08896E212AE1E059005CF949 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08896E1B2AE1E059005CF949 /* User+CoreDataClass.swift */; };
 		08896E222AE1E059005CF949 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08896E1C2AE1E059005CF949 /* User+CoreDataProperties.swift */; };
 		08896E262AE1FAF3005CF949 /* MyFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08896E252AE1FAF3005CF949 /* MyFileManager.swift */; };
-		08896E282AE1FF4E005CF949 /* TBFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08896E272AE1FF4E005CF949 /* TBFileManager.swift */; };
 		08B019082AD7B3A6000F07E5 /* AddFlightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B019072AD7B3A6000F07E5 /* AddFlightVC.swift */; };
 		08B0190A2AD7B3B9000F07E5 /* BookTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B019092AD7B3B9000F07E5 /* BookTicketVC.swift */; };
 		08B0190C2AD7B3CD000F07E5 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B0190B2AD7B3CD000F07E5 /* UserInfoVC.swift */; };
@@ -94,7 +93,6 @@
 		08896E1B2AE1E059005CF949 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		08896E1C2AE1E059005CF949 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		08896E252AE1FAF3005CF949 /* MyFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFileManager.swift; sourceTree = "<group>"; };
-		08896E272AE1FF4E005CF949 /* TBFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBFileManager.swift; sourceTree = "<group>"; };
 		08B019072AD7B3A6000F07E5 /* AddFlightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlightVC.swift; sourceTree = "<group>"; };
 		08B019092AD7B3B9000F07E5 /* BookTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTicketVC.swift; sourceTree = "<group>"; };
 		08B0190B2AD7B3CD000F07E5 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 		0867BEB82AD70E2A0014D3B2 = {
 			isa = PBXGroup;
 			children = (
-				08896E272AE1FF4E005CF949 /* TBFileManager.swift */,
 				08B019352AD904AA000F07E5 /* CoreData */,
 				08B019062AD7B35B000F07E5 /* TapBar */,
 				0867BEF82AD70E610014D3B2 /* LocationSelection */,
@@ -426,7 +423,6 @@
 				08080AFE2ADCBC4300D6A2AC /* ChooseFlightVC.swift in Sources */,
 				08CB13242ADF3D7700D1C4CE /* FlightDetailVC.swift in Sources */,
 				08B0190C2AD7B3CD000F07E5 /* UserInfoVC.swift in Sources */,
-				08896E282AE1FF4E005CF949 /* TBFileManager.swift in Sources */,
 				08896E202AE1E059005CF949 /* Seat+CoreDataProperties.swift in Sources */,
 				08CB131E2ADED01800D1C4CE /* FlightSeatCell.swift in Sources */,
 				08F9FD5B2AE0C9490016F08D /* TicketVC.swift in Sources */,
