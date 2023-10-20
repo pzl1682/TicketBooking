@@ -25,38 +25,35 @@ class ShowFlightsVC: UIViewController {
         
         fetchFlightsData()
         
+//        print(self.selectedUser)
+//        print(self.selectedFlight)
         // Do any additional setup after loading the view.
     }
     
     
     func fetchFlightsData(){
-        let bookedFlights = selectedUser?.userBookFlights as? Set<Flight>
-        print(bookedFlights)
-        for flight in bookedFlights! {
-            flights.append(flight)
-            
-//            print(fli)
-//            let flightNumber = flight.flightNumber
-//            print("Flight Number: \(flightNumber ?? "nil")")
-//            if let fetchedFlight = DataBaseManager.shared.fetchFlightData(entity: "Flight", flightNumberSearch: flightNumber!) as? [Flight]{
-//                print("Fetched Flights: \(fetchedFlight)")
-//                let fetch = fetchedFlight[0]
-//                print(fetch)
-//                flights.append(fetch)
-//            }
-//            else{
-//                print("No flights fetched for Flight Number: \(flightNumber ?? "nil")")
-//            }
+        
+        let userBookedFlights = selectedUser!.userBookFlights
+        let bookedFlight = userBookedFlights?.allObjects as? [Flight]
+        flights = bookedFlight
+        
         }
 
-    }
     
     
     @IBAction func SegueToTicket(_ sender: UIButton) {
         performSegue(withIdentifier: "SegueToTicket", sender: nil)
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let destinationVC = segue.destination as? TicketVC {
+            destinationVC.selectedUser = selectedUser
+            destinationVC.selectedFlight = selectedFlight
+//            print(destinationVC.selectedUser)
+//            print(destinationVC.selectedFlight)
+        }
+    }
     
 
     /*

@@ -8,13 +8,15 @@
 import UIKit
 import CoreData
 
+
+
 class UserInfoInputVC: UIViewController {
     
     
     var selectedCountry: String?
     var selectedState: String?
     var selectedCity: String?
-    
+
     
     @IBOutlet weak var NameLabel: UILabel!
     @IBOutlet weak var NameText: UITextField!
@@ -121,7 +123,6 @@ class UserInfoInputVC: UIViewController {
             let successalert = UIAlertController(title: "Successful", message: "Successfully Saved User Info!", preferredStyle: UIAlertController.Style.alert)
             successalert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
             self.present(successalert, animated: true, completion: nil)
-            
 //            DataBaseManager.shared.fetchUserData(entity: "User", nameSearch: "")
         }
         

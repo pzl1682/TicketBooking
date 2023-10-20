@@ -101,6 +101,8 @@ class BookTicketVC: UIViewController {
             // save seat info
             let newSeat = NSEntityDescription.insertNewObject(forEntityName: "Seat", into: managedContext) as! Seat
             newSeat.bookedSeatNumber = Int32(seatnumber!)
+            newSeat.flightNumber = flight.flightNumber
+            newSeat.userName = user.name
             flight.addToFlightHaveSeats(newSeat)
             
 
@@ -115,6 +117,10 @@ class BookTicketVC: UIViewController {
             //        newSeat.bookedSeatNumber = seatnumber
 
             appDelegate.saveContext()
+            
+            let alert = UIAlertController(title: "Successful", message: "Successfully Booked Ticket!", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
             
         }
     }

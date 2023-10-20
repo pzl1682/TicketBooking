@@ -17,7 +17,8 @@ extension Seat {
     }
 
     @NSManaged public var bookedSeatNumber: Int32
-    @NSManaged public var seatInFlight: Flight?
+    @NSManaged public var flightNumber: String?
+    @NSManaged public var userName: String?
 
 }
 

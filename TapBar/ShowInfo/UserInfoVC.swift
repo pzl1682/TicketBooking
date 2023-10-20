@@ -7,7 +7,8 @@
 
 import UIKit
 
-class UserInfoVC: UIViewController {
+class UserInfoVC: UIViewController{
+    
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -15,13 +16,18 @@ class UserInfoVC: UIViewController {
     var users:[User]!
     var selectedUser: User?
     
+    override func viewWillAppear(_ animated: Bool) {
+        fetchUsersData()
+        tableView.reloadData()
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.dataSource = self
         tableView.delegate = self
-        
-        fetchUsersData()
+
 
         // Do any additional setup after loading the view.
     }
@@ -97,5 +103,4 @@ extension UserInfoVC: UITableViewDelegate, UITableViewDataSource{
     
     
 }
-
 

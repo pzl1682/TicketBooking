@@ -21,7 +21,7 @@ class FlightSeatVC: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        print(flightnumber)
+        //        print(flightnumber)
         collectionView.dataSource = self
         collectionView.delegate = self
         
@@ -42,11 +42,7 @@ class FlightSeatVC: UIViewController{
     }
     
     
-
-//    func fetchFlightData(){
-//
-//    }
-
+    
 }
 
 extension FlightSeatVC:UICollectionViewDataSource, UICollectionViewDelegate {

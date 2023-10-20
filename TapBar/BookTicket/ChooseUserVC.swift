@@ -86,7 +86,7 @@ extension ChooseUserVC: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let user = self.users![indexPath.row]
         selectedUser = user.name
-        print(selectedUser)
+//        print(selectedUser)
 //        print(indexPath.row)
     }
     

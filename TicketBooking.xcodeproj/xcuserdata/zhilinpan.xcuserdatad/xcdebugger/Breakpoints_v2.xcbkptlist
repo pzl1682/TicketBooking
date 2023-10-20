@@ -46,8 +46,8 @@
             filePath = "TapBar/AddUser/UserInfoInputVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "TapBar/AddUser/UserInfoInputVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "SaveUerInfo(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -71,96 +71,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D9DC772B-86F5-4996-A4E0-7EE7B819B83A"
+            uuid = "B126C4AE-E18B-4EDC-BE43-A387432FAB85"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TapBar/ShowInfo/ShowFlightsVC.swift"
+            filePath = "TapBar/ShowInfo/TicketVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "fetchFlightsData()"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4D404063-10A4-4574-B879-55261A7385D8"
+            uuid = "8262B8F2-6BE2-45A7-8219-F49055BE345D"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TapBar/ShowInfo/ShowFlightsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "fetchFlightsData()"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4823BA27-A9E9-484B-A430-B4BFCE229C36"
-            shouldBeEnabled = "Yes"
+            uuid = "B9F71EC6-38DE-46FB-815C-57C87A9FF284"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TapBar/ShowInfo/ShowFlightsVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "fetchFlightsData()"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4823BA27-A9E9-484B-A430-B4BFCE229C36 - 65d1d9a4234f318"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TicketBooking.ShowFlightsVC.fetchFlightsData() -&gt; ()"
-                  moduleName = "TicketBooking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhilinpan/Desktop/TicketBooking/TapBar/ShowInfo/ShowFlightsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "460">
-               </Location>
-               <Location
-                  uuid = "4823BA27-A9E9-484B-A430-B4BFCE229C36 - 65d1d9a4234f318"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TicketBooking.ShowFlightsVC.fetchFlightsData() -&gt; ()"
-                  moduleName = "TicketBooking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhilinpan/Desktop/TicketBooking/TapBar/ShowInfo/ShowFlightsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "720">
-               </Location>
-               <Location
-                  uuid = "4823BA27-A9E9-484B-A430-B4BFCE229C36 - 65d1d9a4234f377"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TicketBooking.ShowFlightsVC.fetchFlightsData() -&gt; ()"
-                  moduleName = "TicketBooking"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhilinpan/Desktop/TicketBooking/TapBar/ShowInfo/ShowFlightsVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "508">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -97,10 +97,30 @@ class DataBaseManager: NSObject{
             print("Error when fetching flight data")
             return nil
         }
-        
-        
-        
     }
+    
+    
+    func fetchSeatData(entity: String, flightNumber: String, userName: String) -> [NSManagedObject]? {
+        let fetch = NSFetchRequest<NSManagedObject>.init(entityName: entity)
+        
+        let flightPredicate = NSPredicate(format: "flightNumber == %@", flightNumber)
+        let userPredicate = NSPredicate(format: "userName == %@", userName)
+        
+        let compoundPredicate = NSCompoundPredicate(type: .and, subpredicates: [flightPredicate, userPredicate])
+        fetch.predicate = compoundPredicate
+        
+        do{
+            let seats = try self.managedContext?.fetch(fetch)
+            return seats
+        }
+        catch{
+            print("Error when fetching seat data")
+            return nil
+        }
+
+    }
+    
+    
     
     
     func deleteUserData(entity: String, name: String){

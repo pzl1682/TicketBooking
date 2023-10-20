@@ -21,25 +21,7 @@ extension Flight {
     @NSManaged public var flightNumber: String?
     @NSManaged public var flightTime: Date?
     @NSManaged public var numberOfSeats: Int32
-    @NSManaged public var flightHavePassengers: NSSet?
     @NSManaged public var flightHaveSeats: NSSet?
-
-}
-
-// MARK: Generated accessors for flightHavePassengers
-extension Flight {
-
-    @objc(addFlightHavePassengersObject:)
-    @NSManaged public func addToFlightHavePassengers(_ value: User)
-
-    @objc(removeFlightHavePassengersObject:)
-    @NSManaged public func removeFromFlightHavePassengers(_ value: User)
-
-    @objc(addFlightHavePassengers:)
-    @NSManaged public func addToFlightHavePassengers(_ values: NSSet)
-
-    @objc(removeFlightHavePassengers:)
-    @NSManaged public func removeFromFlightHavePassengers(_ values: NSSet)
 
 }
 

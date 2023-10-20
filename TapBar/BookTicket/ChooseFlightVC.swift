@@ -36,7 +36,7 @@ class ChooseFlightVC: UIViewController {
     }
 
     
-    @IBAction func SegueToFlightDetail(_ sender: UIButton) {
+    @IBAction func SegueToFlightDetail(_ sender: Any) {
         performSegue(withIdentifier: "SegueToFlightDetail", sender: nil)
     }
     
